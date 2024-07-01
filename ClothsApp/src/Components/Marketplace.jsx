@@ -17,6 +17,15 @@ const Marketplace = () => {
         </div>
         <div className="max-w-[1200px] w-[100%]">
           <Nav />
+          <div>
+            <p className="text-[24px]">Salesbag</p>
+            <p className="text-[48px] tracking-tighter">Market Place</p>
+          </div>
+          <div className="flex">
+            <img src="/src/assets/Images/Banners/Banner 1.png"/>
+            <img src="/src/assets/Images/Banners/Banner 2.png"/>
+            <img src=""/>
+          </div>
         </div>
       </div>
     </>
