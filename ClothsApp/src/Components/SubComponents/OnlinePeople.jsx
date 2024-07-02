@@ -4,8 +4,8 @@ const OnlinePeople = () => {
   return (
     <>
       <div>
-      <p>Online People</p>
-        <div className="flex gap-3 pl-[19px] mt-[10px] mb-[10px] items-center" >
+      <p className="text-[#808191] mt-[25px] font-normal  text-[11px] leading-5">Online People</p>
+        <div className="flex gap-3 pl-[15px] mt-[30px] mb-[10px] items-center" >
           <img className="h-[44px] w-[44px]" src="/src/assets/Images/Avatars/Leslie.png" /> <p>Leslie</p>{" "}
         </div>
         <div className="flex gap-3 pl-[19px] mt-[10px] mb-[10px] items-center" >
