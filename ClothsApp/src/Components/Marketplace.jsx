@@ -75,6 +75,72 @@ const Marketplace = () => {
       liked: "",
     },
   ];
+  const collection = [
+    {
+      url: "/src/assets/Images/Models/Women/woman 1.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+    {
+      url: "/src/assets/Images/Models/Women/woman 2.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+    {
+      url: "/src/assets/Images/Models/Women/woman 3.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+    {
+      url: "/src/assets/Images/Models/Women/woman 4.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+    {
+      url: "/src/assets/Images/Models/Women/woman 1.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+    {
+      url: "/src/assets/Images/Models/Women/woman 2.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+    {
+      url: "/src/assets/Images/Models/Women/woman 3.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+    {
+      url: "/src/assets/Images/Models/Women/woman 4.png",
+      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      brand: "Sapphire",
+      type: "Unstiched",
+      price: "PKR 3000",
+      liked: "",
+    },
+  ];
   return (
     <>
       <div className="flex bg-[#F9FBFF]">
@@ -202,6 +268,44 @@ const Marketplace = () => {
                 <li>Men</li>
                 <li>Kids</li>
               </ul>
+            </div>
+            {/* Active bar is not added yet */}
+            <div>
+              <div className=" flex gap-[30px] flex-wrap">
+                {collection.map((data, index) => (
+                  <div
+                    className="bg-white border border-transparent rounded-xl"
+                    key={index}
+                  >
+                    <img className="mb-[21px] max-w-[240px]" src={data.url} />
+                    <div className="flex">
+                      <div className="border rounded-full cursor-pointer"></div>
+                      <div className=" flex justify-between max-w-[240px] w-full items-center">
+                        <div className=" flex gap-[12px]">
+                          <img
+                            className="max-h-[40px] max-2-[40px]"
+                            src={data.logo}
+                          />
+
+                          <div>
+                            <p className="text-[14px] font-semibold leading-5 mb-[3px]">
+                              {data.brand}
+                            </p>
+                            <p className="text-[12px] text-[#808191] font-normal leading-4 ">
+                              {data.type}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="">
+                          <p className="text-[14px] font-semibold leading-5 ">
+                            {data.price}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
