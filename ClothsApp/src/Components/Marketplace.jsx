@@ -306,6 +306,11 @@ const Marketplace = () => {
                   </div>
                 ))}
               </div>
+              <div className="text-center mt-[55px] max-w-[1045px]">
+              <button className="  text-white bg-[#6151FF] text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter mb-[74px]">
+                Load More
+              </button>
+            </div>
             </div>
           </div>
         </div>

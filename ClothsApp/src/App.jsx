@@ -8,7 +8,7 @@ import MarketPlaceChat from "./Components/MarketPlaceChat";
 const App = () => {
   return (
     <>
-      <Marketplace/>
+      <MarketPlaceChat/>
     </>
   );
 };

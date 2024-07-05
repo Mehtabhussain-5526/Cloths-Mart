@@ -372,3 +372,112 @@ export const Showing = (props) => (
     <circle cx={386} cy={10} r={4} fill="#D9D9D9" />
   </svg>
 );
+
+export const ThreeDotOption = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={5}
+    fill="none"
+    {...props}
+  >
+    <ellipse cx={2.586} cy={2.5} fill="#595959" rx={2.586} ry={2.5} />
+    <ellipse cx={11.635} cy={2.5} fill="#595959" rx={2.586} ry={2.5} />
+    <ellipse cx={20.685} cy={2.5} fill="#595959" rx={2.586} ry={2.5} />
+  </svg>
+);
+
+export const XcloseBtn = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={19}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#595959"
+      d="m16.474 3.982-.84-.84-5.518 5.518-5.518-5.517-.84.84L9.277 9.5 3.76 15.018l.84.84 5.517-5.518 5.518 5.517.84-.84L10.956 9.5l5.518-5.518Z"
+    />
+  </svg>
+);
+
+export const PurpleHeart = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={34}
+    height={34}
+    fill="none"
+    {...props}
+  >
+    <circle cx={17} cy={17} r={17} fill="#6151FF" />
+    <path
+      fill="#fff"
+      d="M17 22.5s-6.25-3.5-6.25-7.75A3.25 3.25 0 0 1 17 13.498a3.25 3.25 0 0 1 6.25 1.252C23.25 19 17 22.5 17 22.5Z"
+    />
+  </svg>
+);
+
+export const CommentIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={16}
+    height={16}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#595959"
+      d="M4.233 15.06 0 16l.94-4.233a8 8 0 1 1 3.292 3.292Z"
+    />
+  </svg>
+);
+
+export const LikeHallow = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={16}
+    height={16}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#fff"
+      stroke="#595959"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M8 13.5S1.75 10 1.75 5.75A3.25 3.25 0 0 1 8 4.498h0a3.25 3.25 0 0 1 6.25 1.252C14.25 10 8 13.5 8 13.5Z"
+    />
+  </svg>
+);
+
+export const ShareHallow = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={16}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#333"
+      d="m10 16 10-8-10-8v5C4.477 5 0 9.477 0 15c0 .273.01.543.032.81a9.002 9.002 0 0 1 7.655-4.805L8 11h2v5Zm2-7H7.966l-.347.007c-1.285.043-2.524.31-3.676.766A7.982 7.982 0 0 1 10 7h2V4.161L16.798 8 12 11.839V9Z"
+    />
+  </svg>
+);
+
+export const SendPost = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={21}
+    height={21}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#595959"
+      d="M.392 7.047c-.522-.174-.527-.455.01-.634L19.49.051c.528-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045l-3.594-8.088 6-8-8 6L.392 7.047Z"
+    />
+  </svg>
+);
