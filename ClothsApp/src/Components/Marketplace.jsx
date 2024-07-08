@@ -143,35 +143,35 @@ const Marketplace = () => {
   ];
   return (
     <>
-      <div className="flex bg-[#F9FBFF]">
-        <div className="max-w-[240px] w-[100%] pt-5 pl-5 pr-5">
+      <div className="flex bg-[#F9FBFF] ">
+        <div className=" pt-5 pl-5 pr-5 max-w-[240px] w-[100%]" >
           <NewFeed />
           <Controls />
           <OnlinePeople />
           <Groups />
         </div>
-        <div className="max-w-[1200px] w-[100%] border">
+        <div className="border  max-w-[1200px] w-[100%] ">
           <Nav />
-          <div className="border pl-[80px] pt-[47px]">
-            <div className="mb-[47px]">
-              <p className="text-[24px] text-[#808191] font-normal leading-6 tracking-tighter">
+          <div className="border  pl-[80px] pt-[47px]">
+            <div className=" mb-[47px]">
+              <p className=" text-[#808191]  text-[24px] font-normal leading-6 tracking-tighter">
                 Salesbag
               </p>
-              <p className="text-[48px] font-semibold leading-[56px]  tracking-tighter">
+              <p className="text-[48px] font-semibold leading-[56px] tracking-tighter">
                 Market Place
               </p>
             </div>
             <div className="flex overflow-x-hidden gap-[30px] ">
               <img
-                className="w-[100%] max-w-[500px] h-[240px]  border border-transparent rounded-2xl"
+                className="border border-transparent max-w-[420px] w-[100%] h-[240px]  rounded-2xl  "
                 src="/src/assets/Images/Banners/Ideas banner purple.png"
               />
               <img
-                className="w-[100%] max-w-[500px] h-[240px]  border border-transparent rounded-2xl"
+                className="border border-transparent max-w-[420px] w-[100%] h-[240px]  rounded-2xl   "
                 src="/src/assets/Images/Banners/Ideas banner green.png"
               />
               <img
-                className="w-[100%] max-w-[500px] h-[240px]  border border-transparent rounded-2xl"
+                className="border border-transparent max-w-[420px] w-[100%] h-[240px]  rounded-2xl   "
                 src="/src/assets/Images/Banners/Ideas banner purple.png"
               />
             </div>
@@ -307,10 +307,10 @@ const Marketplace = () => {
                 ))}
               </div>
               <div className="text-center mt-[55px] max-w-[1045px]">
-              <button className="  text-white bg-[#6151FF] text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter mb-[74px]">
-                Load More
-              </button>
-            </div>
+                <button className="  text-white bg-[#6151FF] text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter mb-[74px]">
+                  Load More
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -98,7 +98,7 @@ const MarketPlaceChat = () => {
                   account in outward tedious do. Particular way thoroughly
                   unaffected projection.Removed demands expense account in
                   outward tedious do. &nbsp;
-                  <span className="text-[#106FED] font-medium text-[14px] leading-6">
+                  <span className="text-[#106FED] font-mediumtext-[14px] leading-6">
                     #Particular
                   </span>
                   &nbsp;
