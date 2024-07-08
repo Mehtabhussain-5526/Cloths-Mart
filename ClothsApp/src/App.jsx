@@ -7,6 +7,7 @@ import MarketPlaceChat from "./Components/MarketPlaceChat";
 import {
   BrowserRouter,
   createBrowserRouter,
+  HashRouter,
   Route,
   RouterProvider,
   Routes,
@@ -15,7 +16,7 @@ import {
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Marketplace />} />
           <Route path="brands" element={<Brands />} />
@@ -23,7 +24,7 @@ const App = () => {
           <Route path="/pinneditems" element={<PinnedItems />} />
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
