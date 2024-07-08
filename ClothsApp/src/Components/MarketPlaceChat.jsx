@@ -35,7 +35,7 @@ const MarketPlaceChat = () => {
   ];
   return (
     <>
-      <div className="flex bg-[#F9FBFF]">
+    <div className="flex bg-[#F9FBFF]">
         <div className="max-w-[240px] w-[100%] pt-5 pl-5 pr-5">
           <NewFeed />
           <Controls />
@@ -464,6 +464,7 @@ const MarketPlaceChat = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };
