@@ -4,21 +4,21 @@ import { ArrowDown, Bell, Like } from "../../../util/logo";
 const Nav = () => {
   return (
     <>
-      <div className="w-[100%] max-w-[1200px] h-[84px] flex pb-5 pt-5 pl-[80px] pr-[70px] justify-between">
+      <div className="xl:w-[100%] xl:max-w-[1200px] xl:h-[84px] xl:flex xl:pb-5 xl:pt-5 xl:pl-[80px] xl:pr-[70px] xl:justify-between lg:max-w-[800px] lg:w-full lg:pl-[50px] lg:pr-[50px] lg:flex lg:justify-between lg:items-center lg:p-[20px] ">
         <div className="flex">
           <input
-            className=" max-w-[350px] border border-transparent rounded-md pl-3"
+            className=" xl:max-w-[350px] border border-transparent rounded-md xl:pl-3"
             placeholder="Search Everything"
           />
         </div>
         <div className="">
-          <ul className="text-[#808191] w-[100%] max-w-[ 250px] h-[44px] flex justify-between items-center gap-[40px] ">
+          <ul className="text-[#808191] xl:w-[100%] xl:max-w-[ 250px] xl:h-[44px] flex justify-between items-center xl:gap-[40px] lg:gap-[20px]">
             <li className="cursor-pointer">About</li>
             <li className="cursor-pointer">Blogs</li>
             <li className="cursor-pointer">Contact Us</li>
           </ul>
         </div>
-        <div className="flex justify-between items-center gap-[50px]">
+        <div className="flex justify-between items-center xl:gap-[50px] lg:gap-[20px]">
           <Like className="cursor-pointer" />
           <Bell className="cursor-pointer" />
           <div className="flex items-center">
