@@ -1,6 +1,5 @@
 import React from "react";
 import { GoneMemb, GthreeMemb, GtwoMemb } from "../../../util/logo";
-
 const Groups = () => {
   return (
     <>

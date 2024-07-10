@@ -1,10 +1,7 @@
 import React from "react";
 import Nav from "./SubComponents/Nav";
-import NewFeed from "./SubComponents/NameLogo";
-import OnlinePeople from "./SubComponents/OnlinePeople";
-import Groups from "./SubComponents/Groups";
-import Controls from "./SubComponents/Controls";
-import { Showing } from "../../util/logo";
+import GridSection from "./SubComponents/GridSection";
+import LeftAside from "./LeftAside";
 
 const Brands = () => {
   const logos = [
@@ -33,102 +30,31 @@ const Brands = () => {
       url: "/src/assets/Images/Brands Logo/Almirah rounded.svg",
     },
   ];
-  const collection = [
-    {
-      url: "/src/assets/Images/Models/Women/woman 1.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-    {
-      url: "/src/assets/Images/Models/Women/woman 2.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-    {
-      url: "/src/assets/Images/Models/Women/woman 3.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-    {
-      url: "/src/assets/Images/Models/Women/woman 4.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-    {
-      url: "/src/assets/Images/Models/Women/woman 1.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-    {
-      url: "/src/assets/Images/Models/Women/woman 2.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-    {
-      url: "/src/assets/Images/Models/Women/woman 3.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-    {
-      url: "/src/assets/Images/Models/Women/woman 4.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
-      brand: "Sapphire",
-      type: "Unstiched",
-      price: "PKR 3000",
-      liked: "",
-    },
-  ];
   return (
     <>
       <div className="flex bg-[#F9FBFF]">
-        <div className="max-w-[240px] w-[100%] pt-5 pl-5 pr-5">
-          <NewFeed />
-          <Controls />
-          <OnlinePeople />
-          <Groups />
-        </div>
+      <LeftAside/>
         {/* main body */}
         <div className="max-w-[1200px] w-[100%] border">
           <Nav />
           {/* divs after nav compnents */}
-          <div className="border pl-[80px] pt-[47px] pb-[100px]">
+          <div className="border xxl:pl-[80px] xl:pl-[40px] xl:pr-[40px] pt-[47px] pb-[100px] lg:pr-[20px] lg:pl-[20px]">
             {/* title and brands logos */}
-            <div className="flex gap-[100px] items-center">
+            <div className="flex justify-between items-center ">
               <div className="">
-                <p className="text-[24px] text-[#808191] font-normal leading-6 tracking-tighter">
+                <p className="xxl:text-[24px] text-[#808191] font-normal leading-6 tracking-tighter xl:text-[20px] lg:text-[20px]">
                   Salesbag
                 </p>
-                <p className="text-[48px] font-semibold leading-[56px]  tracking-tighter">
+                <p className="xxl:text-[48px] font-semibold leading-[56px]  tracking-tighter xl:text-[35px] lg:text-[30px] lg:leading-[48px]">
                   Brands
                 </p>
               </div>
               {/* logos div */}
-              <div className="  flex gap-[30px] items-center">
+              <div className="  flex xxl:gap-[30px] xl:gap-[30px] items-center lg:gap-[20px]">
                 {logos.map((data, index) => (
                   <div
                     id={index}
-                    className="item-center max-h-[80px] max-w-[80px] rounded-full"
+                    className="border border-gray-400 xxl:p-[3px] xl:p-[2px] item-center xxl:max-h-[80px] xxl:max-w-[80px] rounded-full xl:max-w-[55px] xl:max-h-[55px] lg:max-h-[45px] lg:max-w-[45px] lg:p-[2px] "
                   >
                     <img src={data.url} />
                   </div>
@@ -136,51 +62,51 @@ const Brands = () => {
               </div>
             </div>
             {/* Recomendation Banners */}
-            <div className="mt-[50px] max-w-[1060px]">
+            <div className="mt-[50px] max-w-[1060px] ">
               <div className="z-[-1]">
                 <img src="/src/assets/Images/Banners/Khadi banner.png" />
               </div>
-              <div className="flex justify-between">
+              <div className="xxl:max-h-[130px] flex justify-between xl:gap-[20px] xl:min-h-[130px]">
                 <div className="flex gap-[40px] items-center">
                   <div className="ml-[43px]">
                     <img
                       src="/src/assets/Images/Brands Logo/gulahmed.svg"
-                      className=" mt-[-40px] max-h-[160px] max-w-[160px] "
+                      className=" xxl:mt-[-40px] xxl:max-h-[160px] xxl:max-w-[160px] xl:max-w-[130px] xl:max-h-[130px] xl:mt-[-60px] lg:max-w-[90px] lg:max-h-[90px] lg:mt-[-55px]"
                     />
                   </div>
                   <div className=" max-h-[50px] max-w-[400px] items-center">
-                    <p className=" text-[32px] font-bold leading-6 tracking-tighter pb-[19px]">
+                    <p className=" xxl:text-[32px] font-bold leading-6 tracking-tighter pb-[19px] xl:text-[25px] lg:text-[20px] lg:pb-[13px]">
                       Gul Ahmed
                     </p>
-                    <p className=" text-[16px] font-normal leading-6 tracking-tighter">
+                    <p className=" xxl:text-[16px] font-normal xl:max-w-[400px] xl:leading-6 tracking-tighter xl:text-[14px] lg:text-[12px] lg:tracking-tight lg:max-w-[290px] lg:leading-5">
                       Lorem ipsum dolor sit amet consectetur. Consectetur in
                       enim non duis pellentesque eget fermentum phasellus ut
                     </p>
                   </div>
                 </div>
                 {/* Stats */}
-                <div className="flex gap-[60px] items-end text-end">
+                <div className="flex xl:gap-[60px] items-end text-end lg:gap-[30px] lg:mt-[50px]">
                   <div className=" text-left">
-                    <p className=" text-[32px] font-bold leading-6 tracking-tighter">
+                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]">
                       162
                     </p>
-                    <p className="text-[16px] font-normal leading-6 tracking-tighter mt-[10px]">
+                    <p className="xl:text-[16px] font-normal leading-6 tracking-tighter xl:mt-[10px] lg:text-[14px] ">
                       Products
                     </p>
                   </div>
                   <div className=" text-left">
-                    <p className=" text-[32px] font-bold leading-6 tracking-tighter">
+                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]">
                       10+
                     </p>
-                    <p className="text-[16px] font-normal leading-6 tracking-tighter mt-[10px]">
+                    <p className="xl:text-[16px] font-normal leading-6 tracking-tighter xl:mt-[10px] lg:text-[14px] ">
                       Catagories
                     </p>
                   </div>
                   <div className=" text-left">
-                    <p className=" text-[32px] font-bold leading-6 tracking-tighter">
+                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]">
                       96k
                     </p>
-                    <p className="text-[16px] font-normal leading-6 tracking-tighter mt-[10px]">
+                    <p className="xl:text-[16px] font-normal leading-6 tracking-tighter xl:mt-[10px] lg:text-[14px] ">
                       Reviews
                     </p>
                   </div>
@@ -197,45 +123,11 @@ const Brands = () => {
               {/*  Must add a activebar here */}
             </div>
             {/* collection */}
-            <div>
-              <div className=" grid grid-cols-4 gap-[30px]">
-                {collection.map((data, index) => (
-                  <div
-                    className="bg-white border border-transparent rounded-xl"
-                    key={index}
-                  >
-                    <img className="mb-[21px] max-w-[240px]" src={data.url} />
-                    <div className="flex">
-                      <div className="border rounded-full cursor-pointer"></div>
-                      <div className=" flex justify-between max-w-[240px] w-full items-center">
-                        <div className=" flex gap-[12px]">
-                          <img
-                            className="max-h-[40px] max-2-[40px]"
-                            src={data.logo}
-                          />
-
-                          <div>
-                            <p className="text-[14px] font-semibold leading-5 mb-[3px]">
-                              {data.brand}
-                            </p>
-                            <p className="text-[12px] text-[#808191] font-normal leading-4 ">
-                              {data.type}
-                            </p>
-                          </div>
-                        </div>
-                        <div className="">
-                          <p className="text-[14px] font-semibold leading-5 ">
-                            {data.price}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+            <div className="xxl:max-w-[1050px]">
+            <GridSection/>
             </div>
             <div className="text-center mt-[55px] max-w-[1045px]">
-              <button className="  text-white bg-[#6151FF] text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter mb-[74px]">
+              <button className="  text-white bg-[#6151FF] text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter xl:mb-[74px] lg:mb-[0px]">
                 Load More
               </button>
             </div>
