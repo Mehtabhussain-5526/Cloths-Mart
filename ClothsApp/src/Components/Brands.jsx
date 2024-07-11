@@ -40,7 +40,7 @@ const Brands = () => {
           {/* divs after nav compnents */}
           <div className="border xxl:pl-[80px] xl:pl-[40px] xl:pr-[40px] pt-[47px] pb-[100px] lg:pr-[20px] lg:pl-[20px]">
             {/* title and brands logos */}
-            <div className="flex justify-between items-center ">
+            <div className="flex items-center justify-between ">
               <div className="">
                 <p className="xxl:text-[24px] text-[#808191] font-normal leading-6 tracking-tighter xl:text-[20px] lg:text-[20px]">
                   Salesbag
@@ -86,7 +86,7 @@ const Brands = () => {
                 </div>
                 {/* Stats */}
                 <div className="flex xl:gap-[60px] items-end text-end lg:gap-[30px] lg:mt-[50px]">
-                  <div className=" text-left">
+                  <div className="text-left ">
                     <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]">
                       162
                     </p>
@@ -94,7 +94,7 @@ const Brands = () => {
                       Products
                     </p>
                   </div>
-                  <div className=" text-left">
+                  <div className="text-left ">
                     <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]">
                       10+
                     </p>
@@ -102,7 +102,7 @@ const Brands = () => {
                       Catagories
                     </p>
                   </div>
-                  <div className=" text-left">
+                  <div className="text-left ">
                     <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]">
                       96k
                     </p>

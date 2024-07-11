@@ -14,7 +14,7 @@ const Controls = () => {
         News Feed
       </p>
       <Link to="/marketplacechat">
-        {" "}
+        
         <div className="flex pl-[10px] h-[46px] text-[#808191] items-center border border-transparent rounded-lg hover:text-white hover:bg-[#6151FF] mb-[15px] lg:max-w-[180px] lg:w-[100%] lg:ml-[20px]">
           <NewsIcon />
           <p className=" ml-[10px]">News Feed</p>

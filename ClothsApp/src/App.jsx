@@ -25,7 +25,7 @@ const App = () => {
             <Route path="/pinneditems" element={<PinnedItems />} />
           </Routes>
         </HashRouter>
-      </div>{" "}
+      </div>
     </>
   );
 };

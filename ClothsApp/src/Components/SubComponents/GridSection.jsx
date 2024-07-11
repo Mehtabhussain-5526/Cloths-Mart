@@ -80,7 +80,7 @@ const GridSection = () => {
           />
           <div className="flex">
             <div className=" xxl:flex xxl:justify-between xxl:max-w-[240px] xxl:w-full xxl:items-center lg:flex lg:justify-between lg:max-w-[210px] lg:w-full lg:items-center">
-              <div className=" flex  items-center justify-center lg:gap-2">
+              <div className="flex items-center justify-center  lg:gap-2">
                 <img
                   className="xxl:max-h-[40px] xxl:max-2-[40px] lg:max-h-[40px] lg:max-w-[40px] lg:border lg:rounded-full"
                   src={data.logo}
