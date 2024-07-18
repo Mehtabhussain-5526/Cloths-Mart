@@ -4,6 +4,7 @@ import {
   CommentIcon,
   LikeHallow,
   PurpleHeart,
+  SendBtnHallow,
   SendPost,
   ShareHallow,
   ThreeDotOption,
@@ -141,22 +142,24 @@ const MarketPlaceChat = () => {
                 </div>
                 {/* COMMENTS */}
                 <div className="mt-[24px]">
-                  <div className="flex lg:gap-[15px] xxl:mr-0 lg:mr-[80px]">
+                  <div className="flex lg:gap-[15px] xxl:mr-0 ">
                     <img
                       className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px]  justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="text-[18px] font-medium leading-6">
                           Frances Guerrero
                         </p>
-                        <p className="text-[#595959] xxl:pr-[100px] xl:pr-[70px] lg:pr-[50px] text-[14px] font-medium leading-6">
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
                           Removed demands expense account in outward tedious do.
                           Particular way thoroughly unaffected projection.
                         </p>
                       </div>
-                      <p>15hr</p>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
+                        15hr
+                      </p>
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
@@ -169,17 +172,19 @@ const MarketPlaceChat = () => {
                       className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px]  justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="text-[18px] font-medium leading-6">
                           Frances Guerrero
                         </p>
-                        <p className="text-[#595959] xxl:pr-[100px] xl:pr-[70px] lg:pr-[50px] text-[14px] font-medium leading-6">
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
                           Removed demands expense account in outward tedious do.
                           Particular way thoroughly unaffected projection.
                         </p>
                       </div>
-                      <p>15hr</p>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
+                        15hr
+                      </p>
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
@@ -191,17 +196,19 @@ const MarketPlaceChat = () => {
                       className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px]  justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="text-[18px] font-medium leading-6">
                           Frances Guerrero
                         </p>
-                        <p className="text-[#595959] xxl:pr-[100px] xl:pr-[70px] lg:pr-[50px] text-[14px] font-medium leading-6">
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
                           Removed demands expense account in outward tedious do.
                           Particular way thoroughly unaffected projection.
                         </p>
                       </div>
-                      <p>15hr</p>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
+                        15hr
+                      </p>
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
@@ -270,10 +277,10 @@ const MarketPlaceChat = () => {
                     </div>
                     <div>
                       <p className="text-[#878787] leading-5 font-normal lg:mb-[3px]">
-                        Today at 1:30 pm
+                        Today at 1:30 pm • 2hrs
                       </p>
                       <p className="text-[24px] font-semibold leading-8 tracking-tighter">
-                        Lindsay Walton
+                        Lori Ferguson
                       </p>
                     </div>
                   </div>
@@ -308,25 +315,57 @@ const MarketPlaceChat = () => {
                     src="/src/assets/Images/Banners/Banner 2.png"
                   />
                 </div>
-
-                {/* COMMENTS */}
+                {/* khaadi image status*/}
+                <div className="flex items-center justify-between lg:mt-[23px] lg:mb-[40px]">
+                  <div className="flex gap-5">
+                    <div className="flex items-center lg:gap-[8px]">
+                      <LikeHallow /> <p>Liked &#40;56&#41;</p>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <CommentIcon />
+                      <p className="ml-[13px]">Comments &#40;12&#41; </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center lg:gap-[10px]">
+                    <ShareHallow /> <p>Share &#40;12&#41;</p>
+                  </div>
+                </div>
+                {/* comment bar and COMMENTS section */}
+                {/* Add a comment */}
+                <div className="flex gap-[15px] items-center">
+                  <img
+                    className="max-w-[44px] max-h-[44px]"
+                    src="/src/assets/Images/Avatars/Leslie.png"
+                  />
+                  <div className="relative max-w-[1440px] w-full">
+                    <input
+                      className="bg-[#F0F0F0] border max-w-[1440px] w-full border-transparent rounded-md lg:pl-[25px] lg:py-[18px]"
+                      placeholder="Add a comments"
+                    />
+                    <div className="absolute top-[39%] right-[20px]">
+                      <SendBtnHallow />
+                    </div>
+                  </div>
+                </div>
                 <div className="mt-[24px]">
-                  <div className="flex lg:gap-[15px] xxl:mr-0 lg:mr-[80px]">
+                  <div className="flex lg:gap-[15px] xxl:mr-0 ">
                     <img
                       className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px]  justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="text-[18px] font-medium leading-6">
                           Frances Guerrero
                         </p>
-                        <p className="text-[#595959] xxl:pr-[100px] xl:pr-[70px] lg:pr-[50px] text-[14px] font-medium leading-6">
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
                           Removed demands expense account in outward tedious do.
                           Particular way thoroughly unaffected projection.
                         </p>
                       </div>
-                      <p>15hr</p>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
+                        15hr
+                      </p>
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
@@ -339,17 +378,19 @@ const MarketPlaceChat = () => {
                       className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px]  justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="text-[18px] font-medium leading-6">
                           Frances Guerrero
                         </p>
-                        <p className="text-[#595959] xxl:pr-[100px] xl:pr-[70px] lg:pr-[50px] text-[14px] font-medium leading-6">
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
                           Removed demands expense account in outward tedious do.
                           Particular way thoroughly unaffected projection.
                         </p>
                       </div>
-                      <p>15hr</p>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
+                        15hr
+                      </p>
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
@@ -361,17 +402,19 @@ const MarketPlaceChat = () => {
                       className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px]  justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="text-[18px] font-medium leading-6">
                           Frances Guerrero
                         </p>
-                        <p className="text-[#595959] xxl:pr-[100px] xl:pr-[70px] lg:pr-[50px] text-[14px] font-medium leading-6">
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
                           Removed demands expense account in outward tedious do.
                           Particular way thoroughly unaffected projection.
                         </p>
                       </div>
-                      <p>15hr</p>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
+                        15hr
+                      </p>
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
@@ -386,50 +429,69 @@ const MarketPlaceChat = () => {
               </div>
 
               {/* Clothing store */}
-              <div className="bg-white xxl:pt-[32px] px-[25px] bordeer border-transparent rounded-md mt-[20px]">
-                <div className="flex justify-between px-[25px] xxl:mb-[20px]">
-                  <div className="flex xxl:max-w-[280px] xxl:gap-[13px] items-center">
+              <div className="bg-white pt-[32px] px-[25px] bordeer border-transparent rounded-md mt-[20px]">
+                <div className="flex justify-between px-[25px] mb-[20px]">
+                  <div className="flex max-w-[280px] gap-[13px] items-center">
                     <div className="">
                       <img
                         className=""
-                        src="/src/assets/Images/Avatars/Lindsay 65x65.png"
+                        src="/src/assets/Images/Avatars/Zara rounded.png"
                       />
                     </div>
                     <div>
-                      <p className="text-[#878787] leading-5 font-normal xxl:mb-[3px]">
-                        Today at 1:30 pm
+                      <p className="text-[#878787] leading-5 font-normal mb-[3px]">
+                        Clothes Store
                       </p>
                       <p className="text-[24px] font-semibold leading-8 tracking-tighter">
-                        Lindsay Walton
+                        ZARA
                       </p>
                     </div>
                   </div>
-                  <div className="flex xxl:gap-[17px] items-center xxl:max-w-p[60px]">
+                  <div className="flex gap-[17px] items-center max-w-p[60px]">
                     <ThreeDotOption /> <XcloseBtn />
                   </div>
                 </div>
 
-                <div className="flex ml-[] mb-[]">
-                  <div>
-                    <img src="/src/assets/Images/Models/Women/woman 23.png" />
-                    <div className="flex mt-[20px] xxl:gap-[20px]">
-                      <p>Needle Craft Embroidered Shirt WGK-KDW</p>
-                      <p>PKR 3890</p>
+                <div className="pb-[39px] ">
+                  <div className="flex gap-[13px]">
+                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px]">
+                      <img src="/src/assets/Images/Models/Women/woman 21.png" />
+                      <div className="flex mt-[20px]">
+                        <p className="font-semibold text-[14px] leading-5">
+                          Needle Craft Embroidered Shirt WGK-KDW
+                        </p>
+                        <p className="font-semibold text-[14px] leading-5 lg:pl-[13px] text-right min-w-[80px] text-nowrap self-center">
+                          PKR 3890
+                        </p>
+                      </div>
+                    </div>
+                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px]">
+                      <img src="/src/assets/Images/Models/Women/woman 22.png" />
+                      <div className="flex mt-[20px]">
+                        <p className="font-semibold text-[14px] leading-5">
+                          Needle Craft Embroidered Shirt WGK-KDW
+                        </p>
+                        <p className="font-semibold text-[14px] leading-5 lg:pl-[13px] text-right min-w-[80px] text-nowrap self-center">
+                          PKR 3890
+                        </p>
+                      </div>
+                    </div>
+                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px]">
+                      <img src="/src/assets/Images/Models/Women/woman 23.png" />
+                      <div className="flex mt-[20px]">
+                        <p className="font-semibold text-[14px] leading-5">
+                          Needle Craft Embroidered Shirt WGK-KDW
+                        </p>
+                        <p className="font-semibold text-[14px] leading-5 lg:pl-[13px] text-right min-w-[80px] text-nowrap self-center">
+                          PKR 3890
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div>
-                    <img src="/src/assets/Images/Models/Women/woman 23.png" />
-                    <div className="flex mt-[20px] xxl:gap-[20px]">
-                      <p>Needle Craft Embroidered Shirt WGK-KDW</p>
-                      <p>PKR 3890</p>
-                    </div>
-                  </div>
-                  <div>
-                    <img src="/src/assets/Images/Models/Women/woman 23.png" />
-                    <div className="flex mt-[20px] xxl:gap-[20px]">
-                      <p>Needle Craft Embroidered Shirt WGK-KDW</p>
-                      <p>PKR 3890</p>
-                    </div>
+                  <div className="flex items-center justify-center">
+                    <p className="max-w-fit underline text-[16px] leading-5 font-normal text-[#6151FF] mt-[29px]  cursor-pointer">
+                      Sell All
+                    </p>
                   </div>
                 </div>
               </div>

@@ -25,7 +25,7 @@ const RightAside = () => {
         <div className="xl:max-w-[180px]  xl:flex-none xl:flex-col xl:pl-[15px] xl:pr-[15px] lg:flex lg:flex-row-reverse lg:justify-between lg:pl-[30px] lg:pr-[30px]">
               <div>
                 <img
-                  className=" xl:max-w-[170px] mt-[50px] lg:max-w-[220px] lg:mb-[50px]"
+                  className=  " mt-[50px] lg:mb-[50px]"
                   src="/src/assets/Images/Banners/ideas vertical.png"
                 />
               </div>

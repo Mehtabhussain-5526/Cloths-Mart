@@ -1,10 +1,14 @@
-import React from "react";
+import { useState } from "react";
 import Nav from "./SubComponents/Nav";
 import { Showing } from "../../util/logo";
 import LeftAside from "./LeftAside";
 import GridSection from "./SubComponents/GridSection";
 
 const Marketplace = () => {
+  const [hoverEl, SetHoverEl] = useState("");
+  const handleHover = (e) => {
+    SetHoverEl(e.target.innerText);
+  };
   const trending = [
     {
       url: "/src/assets/Images/Models/Women/woman 1.png",
@@ -76,7 +80,7 @@ const Marketplace = () => {
   return (
     <>
       <div className="flex bg-[#F9FBFF]  ">
-        <LeftAside/>
+        <LeftAside />
         <div className="xl:border  xl:max-w-[1200px] xl:w-full lg:min-w-[800px] lg:w-full">
           <Nav />
           <div className="xl:border  xl:pl-[80px] xl:pt-[47px] xl:max-w-[1200px] lg:w-full lg:pl-[20px] lg:pr-[20px] lg:border lg:border-r-transparent">
@@ -117,12 +121,12 @@ const Marketplace = () => {
                     key={index}
                   >
                     <img
-                      className="xl:mb-[21px] xl:max-w-[240px] lg:mb-[16px] lg:min-w-[156px]"
+                      className="xl:mb-[21px] lg:mb-[16px] lg:min-w-[156px]"
                       src={data.url}
                     />
                     <div className="flex ">
                       <div className=" xl:flex xl:justify-between xl:max-w-[240px] xl:w-full xl:items-center lg:flex lg:justify-between lg:max-w-[210px] lg:w-full lg:items-center ">
-                        <div className=" flex  items-center justify-center lg:gap-2">
+                        <div className="flex items-center justify-center lg:gap-2">
                           <img
                             className="xl:max-h-[40px] xl:max-2-[40px] lg:max-h-[40px] lg:max-w-[40px] lg:border lg:rounded-full"
                             src={data.logo}
@@ -164,7 +168,7 @@ const Marketplace = () => {
                     />
                     <div className="flex">
                       <div className=" xl:flex xl:justify-between xl:max-w-[240px] xl:w-full xl:items-center lg:flex lg:justify-between lg:max-w-[210px] lg:w-full lg:items-center">
-                        <div className=" flex  items-center justify-center lg:gap-2">
+                        <div className="flex items-center justify-center lg:gap-2">
                           <img
                             className="xl:max-h-[40px] xl:max-2-[40px] lg:max-h-[40px] lg:max-w-[40px] lg:border lg:rounded-full"
                             src={data.logo}
@@ -191,16 +195,48 @@ const Marketplace = () => {
               </div>
             </div>
             {/* woman man kids collection */}
-            <div>
-              <ul className="flex xl:gap-[80px] xl:mt-[80px] xl:ml-[30px] xl:mb-[60px] lg:gap-[80px] lg:mt-[60px] lg:ml-[30px] lg:mb-[60px]">
-                <li>Women</li>
-                <li>Men</li>
-                <li>Kids</li>
+            <div className="xl:mt-[80px] xl:ml-[30px] xl:mb-[60px] lg:mt-[60px] lg:mb-[60px]">
+              <ul className="flex xl:gap-[80px]  lg:gap-[80px] lg:ml-[30px]">
+                <li
+                  onMouseOver={handleHover}
+              
+                  className="cursor-pointer "
+                  id="Women"
+                >
+                  Women
+                </li>
+                <li
+                  onMouseOver={handleHover}
+
+                  className="cursor-pointer "
+                  id="Men"
+                >
+                  Men
+                </li>
+                <li
+                  onMouseOver={handleHover}
+
+                  className="cursor-pointer "
+                  id="Kids"
+                >
+                  Kids
+                </li>
               </ul>
+              <div className="relative">
+                <div
+                  className={`absolute mt-[10px] border border-[#6151FF] w-[120px] transition-all duration-300  ${
+                    hoverEl == "Women" && "block left-0"
+                  } ${hoverEl == "Men" && "block left-[130px]"} ${
+                    hoverEl == "Kids" && "block left-[250px]"
+                  } ${
+                    hoverEl == "" && "hidden"
+                  } `}
+                ></div>
+              </div>
             </div>
-            {/* Active bar is not added yet */}
+            {/* Active bar */}
             <div>
-              <GridSection/>
+              <GridSection />
               <div className="text-center mt-[55px] max-w-[1045px]">
                 <button className="  text-white bg-[#6151FF] xl:text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter mb-[74px]">
                   Load More

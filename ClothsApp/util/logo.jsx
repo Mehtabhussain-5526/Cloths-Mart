@@ -481,3 +481,192 @@ export const SendPost = (props) => (
     />
   </svg>
 );
+
+export const SendBtnHallow = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={19}
+    height={19}
+    fill="none"
+    {...props}
+  >
+    <g clipPath="url(#a)">
+      <path
+        fill="#595959"
+        d="M17.277.723a.74.74 0 0 0-.786-.101L1.229 7.786v1.386l6.41 2.564 4.112 6.326h1.386L17.518 1.48a.74.74 0 0 0-.241-.756ZM12.281 16.74l-3.534-5.438 5.439-5.956-.86-.786-5.482 6.003L2.558 8.45l13.6-6.383L12.28 16.74Z"
+      />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h18.645v18.645H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const ListCollapsed = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={32}
+    height={32}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M5 16h22M5 8h22M5 24h22"
+    />
+  </svg>
+);
+
+export const PlusSignInviteBtn = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={16}
+    height={16}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#fff"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M2.5 8h11M8 2.5v11"
+    />
+  </svg>
+);
+
+export const SearchIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#595959"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M10.875 18.75a7.875 7.875 0 1 0 0-15.75 7.875 7.875 0 0 0 0 15.75ZM16.443 16.444 20.999 21"
+    />
+  </svg>
+);
+
+export const HeratFilledWithNotific = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={44}
+    height={44}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#6151FF"
+      d="M22.001 31.25S12.626 26 12.626 19.625a4.876 4.876 0 0 1 9.375-1.878 4.876 4.876 0 0 1 9.375 1.878c0 6.375-9.375 11.625-9.375 11.625Z"
+    />
+    <circle cx={39} cy={9} r={4.5} fill="#F95E0C" stroke="#F9FBFF" />
+  </svg>
+);
+
+export const BellWithNotific = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={30}
+    height={31}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M8.993 28.002h6M5.269 16.75A6.74 6.74 0 0 1 12.051 10c3.712.028 6.68 3.113 6.68 6.835v.665c0 3.358.703 5.306 1.322 6.371A.75.75 0 0 1 19.408 25H4.592a.749.749 0 0 1-.645-1.13c.62-1.064 1.322-3.012 1.322-6.37v-.75Z"
+    />
+    <circle cx={25} cy={5} r={4.5} fill="#F95E0C" stroke="#F9FBFF" />
+  </svg>
+);
+
+export const ChatIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={1.5}
+      d="M8.5 19H8c-4 0-6-1-6-6V8c0-4 2-6 6-6h8c4 0 6 2 6 6v5c0 4-2 6-6 6h-.5c-.31 0-.61.15-.8.4l-1.5 2c-.66.88-1.74.88-2.4 0l-1.5-2c-.16-.22-.53-.4-.8-.4Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M15.996 11h.01M11.995 11h.01M7.995 11h.008"
+    />
+  </svg>
+);
+
+export const SettingsIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M9.6 20h4.8c4 0 5.6-1.6 5.6-5.6V9.6c0-4-1.6-5.6-5.6-5.6H9.6C5.6 4 4 5.6 4 9.6v4.8c0 4 1.6 5.6 5.6 5.6Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M10.5 17h3c2.5 0 3.5-1 3.5-3.5v-3C17 8 16 7 13.5 7h-3C8 7 7 8 7 10.5v3C7 16 8 17 10.5 17ZM8.01 4V2M12 4V2M16 4V2M20 8h2M20 12h2M20 16h2M16 20v2M12.01 20v2M8.01 20v2M2 8h2M2 12h2M2 16h2"
+    />
+  </svg>
+);
+
+export const LogoutIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#808191"
+      d="M4 18h2v2h12V4H6v2H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3Zm2-7h7v2H6v3l-5-4 5-4v3Z"
+    />
+  </svg>
+);
+
+export const ActiveBar = (props) => (
+  <svg
+    width="165"
+    height="2"
+    viewBox="0 0 165 2"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M0 1H165" stroke="#6151FF" />
+  </svg>
+);

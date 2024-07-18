@@ -1,9 +1,13 @@
-import React from "react";
 import Nav from "./SubComponents/Nav";
 import GridSection from "./SubComponents/GridSection";
 import LeftAside from "./LeftAside";
+import { useState } from "react";
 
 const Brands = () => {
+  const [hoverEl, SetHoverEl] = useState("");
+  const handleHover = (e) => {
+    SetHoverEl(e.target.innerText);
+  };
   const logos = [
     {
       url: "/src/assets/Images/Brands Logo/gulahmed rounded.svg",
@@ -33,7 +37,7 @@ const Brands = () => {
   return (
     <>
       <div className="flex bg-[#F9FBFF]">
-      <LeftAside/>
+        <LeftAside />
         {/* main body */}
         <div className="max-w-[1200px] w-[100%] border">
           <Nav />
@@ -68,10 +72,10 @@ const Brands = () => {
               </div>
               <div className="xxl:max-h-[130px] flex justify-between xl:gap-[20px] xl:min-h-[130px]">
                 <div className="flex gap-[40px] items-center">
-                  <div className="ml-[43px]">
+                  <div className="ml-[43px] w-full xxl:max-h-[160px] xxl:max-w-[160px] xl:max-w-[130px] xl:max-h-[130px] xxl:mt-[-40px]  xl:mt-[-60px] lg:max-w-[90px] lg:max-h-[90px] lg:mt-[-55px]">
                     <img
                       src="/src/assets/Images/Brands Logo/gulahmed.svg"
-                      className=" xxl:mt-[-40px] xxl:max-h-[160px] xxl:max-w-[160px] xl:max-w-[130px] xl:max-h-[130px] xl:mt-[-60px] lg:max-w-[90px] lg:max-h-[90px] lg:mt-[-55px]"
+                      className=""
                     />
                   </div>
                   <div className=" max-h-[50px] max-w-[400px] items-center">
@@ -113,18 +117,39 @@ const Brands = () => {
                 </div>
               </div>
             </div>
-            <div>
-              <ul className="flex gap-[80px] mt-[80px] ml-[30px] mb-[60px]">
-                <li>Stitched</li>
-                <li>Unstitched</li>
-                <li>Ideas Pret</li>
-                <li>Kaaj</li>
+            <div className="mb-[60px]">
+              <ul className="flex gap-[80px] mt-[80px] ml-[30px] ">
+                <li onMouseOver={handleHover} className="">
+                  Stitched
+                </li>
+                <li onMouseOver={handleHover} className="">
+                  Unstitched
+                </li>
+                <li onMouseOver={handleHover} className="">
+                  Ideas Pret
+                </li>
+                <li onMouseOver={handleHover} className="">
+                  Kaaj
+                </li>
               </ul>
-              {/*  Must add a activebar here */}
+              {/*  Must add a active bar here */}
+              <div className="relative">
+                <div
+                  className={`absolute mt-[10px] border border-[#6151FF]  transition-all duration-300  ${
+                    hoverEl == "Stitched" && "block xxl:left-0 xxl:w-[130px] xl:left-[0%] xl:w-[120px] lg:left-[0%] lg:w-[100px]"
+                  } ${
+                    hoverEl == "Unstitched" && "block xxl:left-[13.5%] xxl:w-[140px] xl:left-[15%] xl:w-[130px] lg:left-[17%] lg:w-[130px]"
+                  } ${
+                    hoverEl == "Ideas Pret" && "block xxl:left-[29%] xxl:w-[130px] xl:left-[30.2%] xl:w-[150px] lg:left-[42%] lg:w-[130px]"
+                  } ${hoverEl == "Kaaj" && "block xxl:left-[42%] xxl:w-[130px] xl:left-[45%] xl:w-[150px] lg:left-[%] lg:w-[100px]"} ${
+                    hoverEl == "" && "hidden"
+                  }`}
+                ></div>
+              </div>
             </div>
             {/* collection */}
             <div className="xxl:max-w-[1050px]">
-            <GridSection/>
+              <GridSection />
             </div>
             <div className="text-center mt-[55px] max-w-[1045px]">
               <button className="  text-white bg-[#6151FF] text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter xl:mb-[74px] lg:mb-[0px]">
