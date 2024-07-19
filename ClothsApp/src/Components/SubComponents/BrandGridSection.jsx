@@ -1,6 +1,6 @@
 import { AddBtn } from "../../../util/logo";
 
-const GridSection = () => {
+const BrandGridSection = () => {
   const collection = [
     {
       url: "/src/assets/Images/Models/Women/woman 1.png",
@@ -108,4 +108,4 @@ const GridSection = () => {
   );
 };
 
-export default GridSection;
+export default BrandGridSection;

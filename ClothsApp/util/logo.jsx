@@ -670,3 +670,21 @@ export const ActiveBar = (props) => (
     <path d="M0 1H165" stroke="#6151FF" />
   </svg>
 );
+
+export const AddBtn = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={19}
+    height={18}
+    fill="none"
+    {...props}
+  >
+    <circle cx={9.061} cy={9} r={9} fill="#6151FF" />
+    <path
+      stroke="#fff"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M4.936 9h8.25M9.061 4.875v8.25"
+    />
+  </svg>
+)
