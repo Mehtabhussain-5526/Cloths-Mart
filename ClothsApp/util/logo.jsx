@@ -687,4 +687,32 @@ export const AddBtn = (props) => (
       d="M4.936 9h8.25M9.061 4.875v8.25"
     />
   </svg>
-)
+);
+
+export const ModalCloseBtn = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={55}
+    height={55}
+    fill="none"
+    {...props}
+  >
+    <rect width={55} height={55} fill="#000" rx={27.5} />
+    <path
+      fill="#fff"
+      d="m23.614 20.454 3.75 6.052h.113l3.75-6.052h2.074l-4.574 7.273L33.301 35h-2.074l-3.75-5.938h-.113L23.614 35H21.54l4.687-7.273-4.687-7.273h2.074Z"
+    />
+  </svg>
+);
+
+export const ModalBackgroud = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={1728}
+    height={1247}
+    fill="none"
+    {...props}
+  >
+    <path fill="#000" d="M0-7h1728v1254H0z" opacity={0.5} />
+  </svg>
+);

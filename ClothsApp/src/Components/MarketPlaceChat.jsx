@@ -80,9 +80,9 @@ const MarketPlaceChat = () => {
                     #Particular
                   </span>
                   &nbsp;
-                  <sapn className="text-[#106FED] font-medium text-[14px] leading-6">
+                  <span className="text-[#106FED] font-medium text-[14px] leading-6">
                     way#thoroughly
-                  </sapn>
+                  </span>
                   &nbsp; unaffected projection.
                 </p>
                 {/* Images of posts */}
