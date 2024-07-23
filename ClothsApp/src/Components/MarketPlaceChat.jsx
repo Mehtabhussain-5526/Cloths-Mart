@@ -19,33 +19,33 @@ const MarketPlaceChat = () => {
       <div className="flex bg-[#F9FBFF]">
         <LeftAside />
         {/* main body */}
-        <div className="xxl:max-w-[1200px] w-[100%] border">
+        <div className="xxl:max-w-[1200px] w-[100%] border md:min-w-[570px]">
           <Nav />
           {/* main dive and aside div */}
           <div className="border xl:flex lg:border-b-transparent">
             {/* main div */}
-            <div className="border border-b-transparent lg:pt-[30px] lg:pl-[30px] lg:pr-[30px] xxl:max-w-[1000px] w-full lg:min-w-[798px]">
+            <div className="border border-b-transparent lg:pt-[30px] md:pt-[20px] lg:pl-[30px] md:pl-[20px] lg:pr-[30px] md:pr-5 xxl:max-w-[1000px] w-full lg:min-w-[798px]">
               {/* create posts div */}
-              <div className=" flex lg:gap-[22px] justify-between items-center">
+              <div className=" flex md:gap-[22px] justify-between items-center">
                 <img
                   className="xxl:max-w-[44px] xxl:max-h-[44px]"
                   src="/src/assets/Images/Avatars/Leslie.png"
                 />
                 <input
-                  className="bg-[#F0F0F0] border border-transparent rounded-md lg:pl-[25px]  lg:py-[18px] xxl:max-w-[900px] w-full xl:min-w-[720px]  lg:min-w-[670px]"
+                  className="bg-[#F0F0F0] border border-transparent rounded-md lg:pl-[25px] md:pl-[25px]  lg:py-[18px] md:py-[15px] md:min-w-[460px] w-full"
                   placeholder="Write Something"
                 />
               </div>
               <div className="text-right">
-                <button className="lg:px-[30px] bg-[#6151FF] lg:py-[10px] border border-transparent rounded-md text-white lg:my-[32px]">
+                <button className="md:px-[30px] bg-[#6151FF] md:py-[10px] border border-transparent rounded-md text-white lg:my-[32px] md:my-[20px]">
                   Post
                 </button>
               </div>
 
               {/* posts of proples */}
-              <div className="bg-white lg:pt-[32px] lg:px-[25px] bordeer border-transparent rounded-md">
-                <div className="flex justify-between lg:mb-[35px]">
-                  <div className="flex lg:max-w-[280px] lg:gap-[13px] items-center">
+              <div className="bg-white lg:pt-[32px] md:pt-[20px] md:px-[25px] border border-transparent rounded-md">
+                <div className="flex justify-between lg:mb-[35px] md:mb-5">
+                  <div className="flex lg:max-w-[280px] md:gap-[13px] items-center">
                     <div className="">
                       <img
                         className="xxl:max-h-[65px] xxl:max-w-[65px] lg:max-w-[50px] xl:max-w-[57px]"
@@ -61,11 +61,11 @@ const MarketPlaceChat = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:gap-[17px] items-center lg:max-w-[60px]">
+                  <div className="flex md:gap-[17px] items-center md:max-w-[60px]">
                     <ThreeDotOption /> <XcloseBtn />
                   </div>
                 </div>
-                <p className="font-medium leading-6 text-[14px] lg:mb-[18px]">
+                <p className="font-medium leading-6 text-[14px] md:mb-[18px]">
                   Removed demands expense account in outward tedious do.&nbsp;
                   <span className="text-[#106FED] font-medium text-[14px] leading-6">
                     @Particular
@@ -86,7 +86,7 @@ const MarketPlaceChat = () => {
                   &nbsp; unaffected projection.
                 </p>
                 {/* Images of posts */}
-                <div className="flex lg:gap-[20px]">
+                <div className="flex md:gap-[20px]">
                   <div className="">
                     <img
                       className="border border-transparent rounded-2xl"
@@ -96,7 +96,7 @@ const MarketPlaceChat = () => {
 
                   <div className="">
                     <img
-                      className="lg:mb-[20px] border border-transparent rounded-2xl"
+                      className="md:mb-[20px] border border-transparent rounded-2xl"
                       src="/src/assets/Images/Models/Women/woman 20.png"
                     />
                     <div className="relative">
@@ -117,39 +117,101 @@ const MarketPlaceChat = () => {
                   </div>
                 </div>
                 {/* Status */}
-                <div className="flex justify-between items-center lg:pt-[17px] pb-[24px]">
+                <div className="flex justify-between items-center md:pt-[17px] pb-[24px]">
                   <div className="flex items-center justify-between">
                     <PurpleHeart />
-                    <p className="ml-[13px]">Louis, Billy and 126 others</p>
+                    <p className="ml-[13px] lg:text-[16px] md:text-[14px]">
+                      Louis, Billy and 126 others
+                    </p>
                   </div>
                   <div className="flex items-center justify-between">
                     <CommentIcon />
-                    <p className="ml-[13px]">Comments &#40;12&#41; </p>
+                    <p className="ml-[13px] lg:text-[16px] md:text-[14px]">
+                      Comments &#40;12&#41;{" "}
+                    </p>
                   </div>
                 </div>
 
                 {/* like share send */}
-                <div className="border border-x-transparent flex justify-between items-center pl-[25px] pb-[19px] lg:pt-[16px] pr-[40px]">
-                  <div className="flex items-center lg:gap-[8px]">
+                <div className="border border-x-transparent flex justify-between items-center pl-[25px] pb-[16px] md:pt-[16px] pr-[40px]">
+                  <div className="flex items-center sm:gap-[8px] lg:text-[16px] md:text-[14px]">
                     <LikeHallow /> <p>Liked &#40;56&#41;</p>
                   </div>
-                  <div className="flex items-center lg:gap-[10px]">
+                  <div className="flex items-center sm:gap-[10px] lg:text-[16px] md:text-[14px]">
                     <ShareHallow /> <p>Share &#40;3&#41;</p>
                   </div>
-                  <div className="flex items-center lg:gap-[12px]">
+                  <div className="flex items-center sm:gap-[12px] lg:text-[16px] md:text-[14px]">
                     <SendPost /> <p>Send</p>
                   </div>
                 </div>
                 {/* COMMENTS */}
                 <div className="mt-[24px]">
-                  <div className="flex lg:gap-[15px] xxl:mr-0 ">
+                  <div className="flex md:gap-[15px] xxl:mr-0 ">
                     <img
-                      className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
+                      className="md:max-h-[44px] md:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] md:py-[15px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
-                        <p className="text-[18px] font-medium leading-6">
+                        <p className="lg:text-[18px] md:text-[16px]  font-medium leading-6">
+                          Frances Guerrero
+                        </p>
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
+                          Removed demands expense account in outward tedious do.
+                          Particular way thoroughly unaffected projection.
+                        </p>
+                      </div>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px] lg:text-[16px] md:text-[16px]">
+                        15hr
+                      </p>
+                    </div>
+                  </div>
+                  <p className="ml-[130px] mt-[11px] mb-[15px]">
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      Like &#40;3&#41;
+                    </span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">Reply</span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      View 5 replies
+                    </span>
+                  </p>
+                  <div className="lg:ml-[60px] md:ml-[25px] flex md:gap-[15px]">
+                    <img
+                      className="md:max-h-[44px] md:max-w-[44px] mt-[10px] "
+                      src="/src/assets/Images/Avatars/Dries.png"
+                    />
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] md:py-[15px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
+                      <div className="">
+                        <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
+                          Frances Guerrero
+                        </p>
+                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
+                          Removed demands expense account in outward tedious do.
+                          Particular way thoroughly unaffected projection.
+                        </p>
+                      </div>
+                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px] lg:text-[16px] md:text-[14px]">
+                        15hr
+                      </p>
+                    </div>
+                  </div>
+                  <p className="ml-[130px] mt-[11px] mb-[15px]">
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      Like &#40;3&#41;
+                    </span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">Reply</span>
+                  </p>
+                  <div className="lg:ml-[60px] md:ml-[25px] flex md:gap-[15px]">
+                    <img
+                      className="md:max-h-[44px] md:max-w-[44px] mt-[10px] "
+                      src="/src/assets/Images/Avatars/Dries.png"
+                    />
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] md:py-[15px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
+                      <div className="">
+                        <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
                         </p>
                         <p className="text-[#595959]  text-[14px] font-medium leading-6">
@@ -163,81 +225,37 @@ const MarketPlaceChat = () => {
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
-                    <span>Like &#40;3&#41;</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>Reply</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>View 5 replies</span>
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      Like &#40;3&#41;
+                    </span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">Reply</span>
                   </p>
-                  <div className="ml-[60px] flex lg:gap-[15px]">
+                  <div className="lg:ml-[60px] md:ml-[25px] flex xxl:max-w-[824px] md:gap-[15px]">
                     <img
-                      className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
+                      className="md:max-h-[44px] md:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className="flex border border-transparent rounded-md bg-[#F0F0F0] md:pt-[18px] pr-[35px] pl-[35px] justify-between">
                       <div className="">
-                        <p className="text-[18px] font-medium leading-6">
+                        <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
                         </p>
-                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
-                          Removed demands expense account in outward tedious do.
-                          Particular way thoroughly unaffected projection.
-                        </p>
-                      </div>
-                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
-                        15hr
-                      </p>
-                    </div>
-                  </div>
-                  <p className="ml-[130px] mt-[11px] mb-[15px]">
-                    <span>Like &#40;3&#41;</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>Reply</span>
-                  </p>
-                  <div className="ml-[60px] flex lg:gap-[15px]">
-                    <img
-                      className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
-                      src="/src/assets/Images/Avatars/Dries.png"
-                    />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
-                      <div className="">
-                        <p className="text-[18px] font-medium leading-6">
-                          Frances Guerrero
-                        </p>
-                        <p className="text-[#595959]  text-[14px] font-medium leading-6">
-                          Removed demands expense account in outward tedious do.
-                          Particular way thoroughly unaffected projection.
-                        </p>
-                      </div>
-                      <p className="xxl:pl-[100px] xl:pl-[70px] lg:pl-[50px]">
-                        15hr
-                      </p>
-                    </div>
-                  </div>
-                  <p className="ml-[130px] mt-[11px] mb-[15px]">
-                    <span>Like &#40;3&#41;</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>Reply</span>
-                  </p>
-                  <div className="ml-[60px] flex xxl:max-w-[824px] w-[100%] lg:gap-[15px]">
-                    <img
-                      className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
-                      src="/src/assets/Images/Avatars/Dries.png"
-                    />
-                    <div className="flex border border-transparent rounded-md bg-[#F0F0F0] lg:pt-[18px] pr-[35px] pl-[35px] justify-between">
-                      <div className="">
-                        <p>Frances Guerrero</p>
                         <p className="xxl:max-w-[580px]">Congratulations</p>
                         <img src="/src/assets/Emoji/Congrats.png" />
                       </div>
                     </div>
                   </div>
-                  <p className="text-[#595959] font-medium text-[14px] leading-6 ml-[60px] mt-[25px] pb-[35px] ">
+                  <p className="text-[#595959] font-medium text-[14px] leading-6 lg:ml-[60px] md:ml-[25px] mt-[25px] pb-[35px] ">
                     ... Load more comments
                   </p>
                 </div>
                 {/* End of comments */}
               </div>
               {/* Clothing Blog */}
-              <div className="bg-white lg:pt-[40px]  bordeer border-transparent rounded-md lg:mt-[25px]">
-                <div className="flex justify-between px-[25px] lg:mb-[20px]">
-                  <div className="flex xxl:max-w-[280px] lg:gap-[13px] items-center">
+              <div className="bg-white lg:pt-[40px] md:pt-[20px]  bordeer border-transparent rounded-md md:mt-[25px]">
+                <div className="flex justify-between px-[25px] md:mb-[20px]">
+                  <div className="flex xxl:max-w-[280px] md:gap-[13px] items-center">
                     <div className="">
                       <img
                         className=""
@@ -253,12 +271,12 @@ const MarketPlaceChat = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:gap-[17px] items-center lg:max-w-p[60px]">
+                  <div className="flex md:gap-[17px] items-center md:max-w-p[60px]">
                     <ThreeDotOption /> <XcloseBtn />
                   </div>
                 </div>
                 <img src="/src/assets/Images/Banners/Banner 1.png" />
-                <p className="text-[#878787] pl-[30px] mt-[20px] lg:mb-[5px]">
+                <p className="text-[#878787] pl-[30px] mt-[20px] md:mb-[5px]">
                   Clothing Store
                 </p>
                 <p className="text-[24px] font-normal leading-7 pl-[30px] pb-[23px]">
@@ -266,9 +284,9 @@ const MarketPlaceChat = () => {
                 </p>
               </div>
               {/* khaadi post */}
-              <div className="bg-white lg:pt-[32px] px-[25px] bordeer border-transparent rounded-md mt-[20px]">
-                <div className="flex justify-between lg:mb-[35px]">
-                  <div className="flex lg:max-w-[280px] lg:gap-[13px] items-center">
+              <div className="bg-white lg:pt-[32px] md:pt-[20px] px-[25px] bordeer border-transparent rounded-md md:mt-[20px]">
+                <div className="flex justify-between lg:mb-[35px] md:pb-5">
+                  <div className="flex lg:max-w-[280px] sm:gap-[13px] items-center">
                     <div className="">
                       <img
                         className=""
@@ -284,11 +302,11 @@ const MarketPlaceChat = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex lg:gap-[17px] items-center lg:max-w-p[60px]">
+                  <div className="flex md:gap-[17px] items-center lg:max-w-p[60px]">
                     <ThreeDotOption /> <XcloseBtn />
                   </div>
                 </div>
-                <p className="font-medium leading-6 text-[14px] lg:mb-[18px]">
+                <p className="font-medium leading-6 text-[14px] md:mb-[18px]">
                   Removed demands expense account in outward tedious do.&nbsp;
                   <span className="text-[#106FED] font-medium text-[14px] leading-6">
                     @Particular
@@ -303,9 +321,9 @@ const MarketPlaceChat = () => {
                     #Particular
                   </span>
                   &nbsp;
-                  <sapn className="text-[#106FED] font-medium text-[14px] leading-6">
+                  <span className="text-[#106FED] font-medium text-[14px] leading-6">
                     way#thoroughly
-                  </sapn>
+                  </span>
                   &nbsp; unaffected projection.
                 </p>
                 {/* Images of posts */}
@@ -316,18 +334,26 @@ const MarketPlaceChat = () => {
                   />
                 </div>
                 {/* khaadi image status*/}
-                <div className="flex items-center justify-between lg:mt-[23px] lg:mb-[40px]">
+                <div className="flex items-center justify-between lg:mt-[23px] lg:mb-[40px] md:mt-[20px] md:mb-[20px]">
                   <div className="flex gap-5">
-                    <div className="flex items-center lg:gap-[8px]">
-                      <LikeHallow /> <p>Liked &#40;56&#41;</p>
+                    <div className="flex items-center sm:gap-[8px]">
+                      <LikeHallow />
+                      <p className=" lg:text-[16px] md:text-[14px]">
+                        Liked &#40;56&#41;
+                      </p>
                     </div>
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center sm:gap-[10px] justify-between">
                       <CommentIcon />
-                      <p className="ml-[13px]">Comments &#40;12&#41; </p>
+                      <p className=" lg:text-[16px] md:text-[14px]">
+                        Comments &#40;12&#41;
+                      </p>
                     </div>
                   </div>
-                  <div className="flex items-center lg:gap-[10px]">
-                    <ShareHallow /> <p>Share &#40;12&#41;</p>
+                  <div className="flex items-center sm:gap-[10px] lg:text-[16px] md:text-[14px]">
+                    <ShareHallow />
+                    <p className="lg:text-[16px] md:text-[14px]">
+                      Share &#40;12&#41;
+                    </p>
                   </div>
                 </div>
                 {/* comment bar and COMMENTS section */}
@@ -339,7 +365,7 @@ const MarketPlaceChat = () => {
                   />
                   <div className="relative max-w-[1440px] w-full">
                     <input
-                      className="bg-[#F0F0F0] border max-w-[1440px] w-full border-transparent rounded-md lg:pl-[25px] lg:py-[18px]"
+                      className="bg-[#F0F0F0] border max-w-[1440px] w-full border-transparent rounded-md md:pl-[25px] lg:py-[18px] md:py-[15px]"
                       placeholder="Add a comments"
                     />
                     <div className="absolute top-[39%] right-[20px]">
@@ -348,14 +374,14 @@ const MarketPlaceChat = () => {
                   </div>
                 </div>
                 <div className="mt-[24px]">
-                  <div className="flex lg:gap-[15px] xxl:mr-0 ">
+                  <div className="flex md:gap-[15px] xxl:mr-0 ">
                     <img
-                      className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
+                      className="md:max-h-[44px] md:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] md:py-[15px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
-                        <p className="text-[18px] font-medium leading-6">
+                        <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
                         </p>
                         <p className="text-[#595959]  text-[14px] font-medium leading-6">
@@ -369,18 +395,24 @@ const MarketPlaceChat = () => {
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
-                    <span>Like &#40;3&#41;</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>Reply</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>View 5 replies</span>
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      Like &#40;3&#41;
+                    </span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">Reply</span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      View 5 replies
+                    </span>
                   </p>
-                  <div className="ml-[60px] flex lg:gap-[15px]">
+                  <div className="lg:ml-[60px] md:ml-[25px] flex md:gap-[15px]">
                     <img
-                      className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
+                      className="md:max-h-[44px] md:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] md:py-[15px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
-                        <p className="text-[18px] font-medium leading-6">
+                        <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
                         </p>
                         <p className="text-[#595959]  text-[14px] font-medium leading-6">
@@ -394,17 +426,20 @@ const MarketPlaceChat = () => {
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
-                    <span>Like &#40;3&#41;</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>Reply</span>
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      Like &#40;3&#41;
+                    </span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">Reply</span>
                   </p>
-                  <div className="ml-[60px] flex lg:gap-[15px]">
+                  <div className="lg:ml-[60px] md:ml-[25px] flex md:gap-[15px]">
                     <img
-                      className="lg:max-h-[44px] lg:max-w-[44px] mt-[10px] "
+                      className="md:max-h-[44px] md:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] md:py-[15px] pr-[25px] pl-[35px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
-                        <p className="text-[18px] font-medium leading-6">
+                        <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
                         </p>
                         <p className="text-[#595959]  text-[14px] font-medium leading-6">
@@ -418,10 +453,13 @@ const MarketPlaceChat = () => {
                     </div>
                   </div>
                   <p className="ml-[130px] mt-[11px] mb-[15px]">
-                    <span>Like &#40;3&#41;</span>&nbsp; • &nbsp;&nbsp;&nbsp;
-                    <span>Reply</span>
+                    <span className="lg:text-[16px] md:text-[14px]">
+                      Like &#40;3&#41;
+                    </span>
+                    &nbsp; • &nbsp;&nbsp;&nbsp;
+                    <span className="lg:text-[16px] md:text-[14px]">Reply</span>
                   </p>
-                  <p className="text-[#595959] font-medium text-[14px] leading-6 ml-[60px] mt-[25px] pb-[35px] ">
+                  <p className="text-[#595959] font-medium text-[14px] leading-6 lg:ml-[60px] md:ml-[25px] mt-[25px] pb-[35px] ">
                     ... Load more comments
                   </p>
                 </div>
@@ -453,9 +491,12 @@ const MarketPlaceChat = () => {
                 </div>
 
                 <div className="pb-[39px] ">
-                  <div className="flex gap-[13px]">
-                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px]">
-                      <img src="/src/assets/Images/Models/Women/woman 21.png" />
+                  <div className="md:flex lg:flex-nowrap lg:gap-[13px] md:gap-[20px] md:flex-wrap">
+                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px] lg:w-auto md:max-w-[220px]">
+                      <img
+                        className=""
+                        src="/src/assets/Images/Models/Women/woman 21.png"
+                      />
                       <div className="flex mt-[20px]">
                         <p className="font-semibold text-[14px] leading-5">
                           Needle Craft Embroidered Shirt WGK-KDW
@@ -465,8 +506,11 @@ const MarketPlaceChat = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px]">
-                      <img src="/src/assets/Images/Models/Women/woman 22.png" />
+                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px] lg:w-auto md:max-w-[220px]">
+                      <img
+                        className=""
+                        src="/src/assets/Images/Models/Women/woman 22.png"
+                      />
                       <div className="flex mt-[20px]">
                         <p className="font-semibold text-[14px] leading-5">
                           Needle Craft Embroidered Shirt WGK-KDW
@@ -476,8 +520,11 @@ const MarketPlaceChat = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px]">
-                      <img src="/src/assets/Images/Models/Women/woman 23.png" />
+                    <div className=" lg:pt-[15px] lg:pl-[15px] lg:pr-[15px] lg:pb-[25px] lg:w-auto md:max-w-[220px]">
+                      <img
+                        className=""
+                        src="/src/assets/Images/Models/Women/woman 23.png"
+                      />
                       <div className="flex mt-[20px]">
                         <p className="font-semibold text-[14px] leading-5">
                           Needle Craft Embroidered Shirt WGK-KDW
@@ -490,7 +537,7 @@ const MarketPlaceChat = () => {
                   </div>
                   <div className="flex items-center justify-center">
                     <p className="max-w-fit underline text-[16px] leading-5 font-normal text-[#6151FF] mt-[29px]  cursor-pointer">
-                      Sell All
+                      See All
                     </p>
                   </div>
                 </div>
