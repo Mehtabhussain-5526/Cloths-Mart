@@ -7,15 +7,17 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <div className="max-w-[1440px] mx-auto ">
-        <HashRouter>
-          <Routes>
-            <Route path="/" element={<Marketplace />} />
-            <Route path="brands" element={<Brands />} />
-            <Route path="/marketplacechat" element={<MarketPlaceChat />} />
-            <Route path="/pinneditems" element={<PinnedItems />} />
-          </Routes>
-        </HashRouter>
+      <div className="bg-[#F9FBFF] w-full min-h-screen">
+        <div className="max-w-[1440px] mx-auto ">
+          <HashRouter>
+            <Routes>
+              <Route path="/" element={<Marketplace />} />
+              <Route path="brands" element={<Brands />} />
+              <Route path="/marketplacechat" element={<MarketPlaceChat />} />
+              <Route path="/pinneditems" element={<PinnedItems />} />
+            </Routes>
+          </HashRouter>
+        </div>
       </div>
     </>
   );

@@ -83,7 +83,7 @@ const Marketplace = () => {
         <LeftAside />
         <div className="xl:border  xl:max-w-[1200px] xl:w-full lg:min-w-[800px] lg:w-full md:min-w-[568px] md:w-full">
           <Nav />
-          <div className="xl:border  xl:pl-[80px] xl:pt-[47px] xl:max-w-[1200px] lg:w-full  md:pl-[20px] md:pr-[20px] lg:border lg:border-r-transparent">
+          <div className="xl:border  xl:pl-[80px] xl:pt-[47px] xl:max-w-[1200px] lg:w-full  md:pl-[20px] md:pr-[20px] lg:border lg:border-r-transparent ">
             <div className=" xl:mb-[47px] lg:max-w-fit ">
               <p className=" text-[#808191]  xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[40px] lg:font-normal lg:leading-6 lg:tracking-tighter lg:max-w-fit md:text-[20px] md:mt-[20px] md:font-normal md:leading-6 md:tracking-tighter md:max-w-fit ">
                 Salesbag
@@ -221,12 +221,15 @@ const Marketplace = () => {
                   Kids
                 </li>
               </ul>
-              <div className="relative md:mb-[40px]">
+              <div className="relative md:mb-[40px] md:max-w-[360px]">
                 <div
-                  className={`absolute mt-[10px] border border-[#6151FF] w-[120px] transition-all duration-300 lg:mb-0 sm:mb-[20px] ${
-                    hoverEl == "Women" && "block left-0"
-                  } ${hoverEl == "Men" && "block left-[130px]"} ${
-                    hoverEl == "Kids" && "block left-[250px]"
+                  className={`absolute ml-[-10px] mt-[10px] border border-[#6151FF] lg:w-[120px] md:w-[100px] transition-all duration-300 lg:mb-0 sm:mb-[20px]  ${
+                    hoverEl == "Women" && "block md:left-0  lg:left-0"
+                  } ${
+                    hoverEl == "Men" &&
+                    "block md:left-[35%] md:w-[80px] lg:left-[130px]"
+                  } ${
+                    hoverEl == "Kids" && "block md:left-[68%] lg:left-[250px]"
                   } ${hoverEl == "" && "hidden"} `}
                 ></div>
               </div>

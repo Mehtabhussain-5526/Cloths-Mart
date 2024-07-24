@@ -716,3 +716,91 @@ export const ModalBackgroud = (props) => (
     <path fill="#000" d="M0-7h1728v1254H0z" opacity={0.5} />
   </svg>
 );
+
+export const ManuBar = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={32}
+    height={32}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M5 16h22M5 8h22M5 24h22"
+    />
+  </svg>
+);
+
+export const CartIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={25}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#6151FF"
+      d="M8.5 21.75a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM18.25 21.75a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"
+    />
+    <path
+      stroke="#6151FF"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M4.964 6.75h16.822l-2.475 8.662a1.5 1.5 0 0 1-1.442 1.088H8.88a1.5 1.5 0 0 1-1.442-1.088L4.05 3.544A.75.75 0 0 0 3.326 3H1.75"
+    />
+  </svg>
+);
+
+export const HeartHallow = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M12 20.25S2.625 15 2.625 8.625A4.876 4.876 0 0 1 12 6.747h0a4.876 4.876 0 0 1 9.375 1.878C21.375 15 12 20.25 12 20.25Z"
+    />
+  </svg>
+);
+
+export const GreenDot = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={10}
+    height={10}
+    fill="none"
+    {...props}
+  >
+    <circle cx={5} cy={5} r={4.5} fill="#00C187" stroke="#fff" />
+  </svg>
+);
+
+export const CloseSignWithPurpleBG = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={12}
+    height={12}
+    fill="none"
+    {...props}
+  >
+    <path fill="#6151FF" d="M0 0h12v12H0z" />
+    <path
+      stroke="#fff"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="m9.375 2.625-6.75 6.75M9.375 9.375l-6.75-6.75"
+    />
+  </svg>
+);
