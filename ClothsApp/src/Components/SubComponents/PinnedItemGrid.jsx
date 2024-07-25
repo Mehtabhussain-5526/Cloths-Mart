@@ -81,9 +81,9 @@ const PinnedItemGrid = () => {
           />
           <div className="flex">
             <div className=" xl:flex xl:justify-between xl:max-w-[240px] xl:w-full xl:items-center lg:flex lg:justify-between lg:max-w-[210px] lg:w-full lg:items-center">
-              <div className="flex items-center justify-center lg:gap-2 lg:border-none lg:static mb:bg-white mb:pl-[6px] mb:pr-[8px] mb:py-[3px] mb:border mb:border-transparent mb:rounded-[500px]  mb:absolute  sm:top-[25px] mb:top-[22px] md:left-[25px] mb:left-[16px] mb:gap-[5px]">
+              <div className="flex items-center justify-center lg:gap-2 lg:border-none lg:static mb:bg-white mb:pl-[6px] mb:pr-[8px] mb:py-[3px] mb:border mb:border-transparent mb:rounded-[500px]  mb:absolute  sm:top-[18px] mb:top-[18px] md:left-[15px] md:top-[18px] mb:left-[16px] mb:gap-[5px]">
                 <img
-                  className="xl:max-h-[40px] xl:max-2-[40px] lg:max-h-[40px] lg:max-w-[40px] md:border md:rounded-full mb:w-[24px] mb:h-[24px] "
+                  className="xl:max-h-[40px] xl:max-2-[40px] lg:h-[40px] lg:w-[40px] md:border md:rounded-full mb:w-[24px] mb:h-[24px] "
                   src={data.logo}
                 />
                 <div className="lg:pr-0 mb:pr-[10px]">

@@ -804,3 +804,92 @@ export const CloseSignWithPurpleBG = (props) => (
     />
   </svg>
 );
+
+export const SliderArrow = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={12}
+    height={10}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M6.757 9.243 11 5 6.757.757M1 5h10"
+    />
+  </svg>
+);
+
+export const ChitChatIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={32}
+    height={32}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M8.948 18 4 22V6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H8.948Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M10 18v5a1 1 0 0 0 1 1h12.052L28 28V12a1 1 0 0 0-1-1h-5"
+    />
+  </svg>
+);
+
+export const ComentsHallow = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={16}
+    height={16}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#595959"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M2.84 11.062a5.997 5.997 0 1 1 2.098 2.099h0l-2.073.592a.5.5 0 0 1-.618-.619l.592-2.072h0Z"
+    />
+    <path
+      fill="#595959"
+      d="M8 8.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5 8.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM11 8.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+    />
+  </svg>
+);
+
+export const ShareArrowIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={16}
+    height={16}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#595959"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="m11 9.5 3-3-3-3"
+    />
+    <path
+      stroke="#595959"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M2 12.5a6 6 0 0 1 6-6h6"
+    />
+  </svg>
+);

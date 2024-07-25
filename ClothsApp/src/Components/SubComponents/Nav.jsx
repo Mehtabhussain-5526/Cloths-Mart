@@ -15,6 +15,8 @@ import {
   PurpleHeart,
   HeartHallow,
   GreenDot,
+  NewsIcon,
+  ChitChatIcon,
 } from "../../../util/logo";
 import InviteBtn from "./InviteBtn";
 import { Link, useLocation } from "react-router-dom";
@@ -27,6 +29,29 @@ const Nav = () => {
     { url: "/src/assets/Images/Avatars/Lindsay.png" },
     { url: "/src/assets/Images/Avatars/Michael.png" },
     { url: "/src/assets/Images/Avatars/Tom Cook.png" },
+  ];
+  const logos = [
+    {
+      url: "/src/assets/Images/Brands Logo/gulahmed rounded.svg",
+    },
+    {
+      url: "/src/assets/Images/Brands Logo/J dot rounded.svg",
+    },
+    {
+      url: "/src/assets/Images/Brands Logo/khadi rounded.svg",
+    },
+    {
+      url: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+    },
+    {
+      url: "/src/assets/Images/Brands Logo/GAP rounded.svg",
+    },
+    {
+      url: "/src/assets/Images/Brands Logo/Alkaram rounded.svg",
+    },
+    {
+      url: "/src/assets/Images/Brands Logo/EGO rounded.svg",
+    },
   ];
   return (
     <>
@@ -110,7 +135,7 @@ const Nav = () => {
           <SearchIcon />
         </div>
       </div>
-      <div className="md:hidden flex items-center justify-between px-[32px] py-[10px] w-screen border ">
+      <div className="md:hidden flex items-center justify-between px-[32px] py-[10px] w-screen border border-x-transparent">
         <Link to="/">
           <div className=" w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]">
             <CartIcon />
@@ -122,8 +147,18 @@ const Nav = () => {
           </div>
         </Link>
         <Link to="/pinneditems">
-          <div className=" w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]">
+          <div
+            className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${
+              location.pathname == "/brands" && "hidden"
+            }`}
+          >
             <ChatIcon />
+          </div>
+          <div
+            className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]
+            ${location.pathname !== "/brands" && "hidden"}`}
+          >
+            <ChitChatIcon />
           </div>
         </Link>
         <Link to="/marketplacechat">
@@ -131,13 +166,21 @@ const Nav = () => {
             <Bell />
           </div>
         </Link>
-        <Link to="">
-          <div className=" w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]">
+        <Link className={`${location.pathname == "/brands" && "hidden"}`}>
+          <div
+            className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${
+              location.pathname == "/brands" && "hidden"
+            }`}
+          >
             <HeartHallow />
           </div>
         </Link>
       </div>
-      <div className="md:hidden flex items-center justify-between pl-[32px] py-[10px] w-screen border overflow-x-hidden ">
+      <div
+        className={`md:hidden flex items-center justify-between pl-[32px] py-[10px] w-screen border border-x-transparent overflow-x-hidden ${
+          location.pathname == "/brands" && "hidden"
+        }`}
+      >
         {Avatars.map((data, index) => (
           <div className="relative">
             <img src={data.url} />
@@ -145,6 +188,20 @@ const Nav = () => {
               {" "}
               <GreenDot />{" "}
             </div>
+          </div>
+        ))}
+      </div>
+      <div
+        className={`flex gap-3 py-5 mb:px-5 sm:px-12 mb:justify-between md:hidden ${
+          location.pathname !== "/brands" && "hidden"
+        }`}
+      >
+        {logos.map((data, index) => (
+          <div
+            id={index}
+            className=" border border-gray-400 rounded-full mb:p-[2px] max-w-[44px]"
+          >
+            <img className="" src={data.url} />
           </div>
         ))}
       </div>
