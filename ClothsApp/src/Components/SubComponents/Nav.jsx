@@ -67,7 +67,7 @@ const Nav = () => {
               <SearchIcon />
             </div>
             <input
-              className={`xl:max-w-[350px]  xl:pl- lg:p-[7px] lg:pl-3 lg:block md:hidden ${
+              className={`xl:max-w-[350px]  xl:pl- lg:p-[7px] lg:pl-3 lg:block md:hidden outline-none ${
                 location.pathname == "/marketplacechat" && "xxl:block sm:hidden"
               }`}
               placeholder="Search Everything"
@@ -83,7 +83,7 @@ const Nav = () => {
           <div className="flex gap-[30px] md:min-w-[185px] ">
             {/* invite btn */}
             {location.pathname == "/marketplacechat" && <InviteBtn />}
-            <div className="flex justify-between items-center lg:gap-[20px] lg:max-w-[185px]  md:min-w-[186px]">
+            <div className="flex justify-between items-center lg:gap-[20px] lg:max-w-[185px]  md:min-w-[210px]">
               <div className="flex items-center border border-transparent rounded-full cursor-pointer hover:bg-[#6151FF] hover:bg-opacity-[10%]">
                 {location.pathname == "/pinneditems" ? (
                   <HeratFilledWithNotific className="cursor-pointer" />
@@ -105,7 +105,7 @@ const Nav = () => {
                 )}
               </div>
 
-              <div className="flex items-center">
+              <div className="flex items-center gap-3">
                 <img
                   className="cursor-pointer"
                   src="/src/assets/Images/Avatars/Leslie.png"
@@ -135,7 +135,7 @@ const Nav = () => {
           <SearchIcon />
         </div>
       </div>
-      <div className="md:hidden flex items-center justify-between px-[32px] py-[10px] w-screen border border-x-transparent">
+      <div className="md:hidden flex items-center justify-between px-[32px] py-[10px] w-screen border border-x-transparent ">
         <Link to="/">
           <div className=" w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]">
             <CartIcon />
@@ -177,7 +177,7 @@ const Nav = () => {
         </Link>
       </div>
       <div
-        className={`md:hidden flex items-center justify-between pl-[32px] py-[10px] w-screen border border-x-transparent overflow-x-hidden ${
+        className={`md:hidden flex items-center justify-between pl-[32px] py-[10px] w-screen  overflow-x-hidden ${
           location.pathname == "/brands" && "hidden"
         }`}
       >
@@ -192,7 +192,7 @@ const Nav = () => {
         ))}
       </div>
       <div
-        className={`flex gap-3 py-5 mb:px-5 sm:px-12 mb:justify-between md:hidden ${
+        className={`flex gap-3 py-5 mb:px-5 sm:px-12 mb:justify-between md:hidden border-b-[1px] ${
           location.pathname !== "/brands" && "hidden"
         }`}
       >

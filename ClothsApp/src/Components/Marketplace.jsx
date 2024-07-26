@@ -81,9 +81,9 @@ const Marketplace = () => {
     <>
       <div className="flex bg-[#F9FBFF]">
         <LeftAside />
-        <div className="xl:max-w-[1200px] xl:w-full lg:min-w-[800px] lg:w-full md:min-w-[568px] md:w-full border-l-2">
+        <div className="xl:max-w-[1200px] xl:w-full lg:min-w-[800px] lg:w-full md:min-w-[568px] md:w-full border-l-[1px]">
           <Nav />
-          <div className="xl:pl-[80px] xl:pt-[47px] xl:max-w-[1200px] lg:w-full  md:pl-[20px] md:pr-[20px]  border-t-2 ">
+          <div className="xl:pl-[80px] xl:pt-[47px] xl:max-w-[1200px] lg:w-full  md:pl-[20px] md:pr-[20px]  border-t-[1px] ">
             <div className=" xl:mb-[47px] lg:max-w-fit md:pl-0 sm:pl-5">
               <p className=" text-[#808191] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[40px] lg:font-normal lg:leading-6 lg:max-w-fit sm:text-[20px] sm:mt-[20px] sm:font-normal sm:leading-6 sm:tracking-tighter sm:max-w-fit sm:block mb:hidden">
                 Salesbag
@@ -95,7 +95,7 @@ const Marketplace = () => {
                 Market Place
               </p>
             </div>
-            <div className="mb:relative flex overflow overflow-x-hidden xl:gap-[30px] mb:gap-[20px] mb:mt-5 md:mt-0 mb:min-h-[180px] sm:pl-0 mb:pl-5">
+            <div className="mb:relative flex overflow overflow-x-hidden xl:gap-[30px] mb:gap-[20px] mb:mt-5 md:mt-0 mb:min-h-[180px] md:pl-0 mb:pl-5">
               <img
                 className=" mb:hidden sm:block md:min-w-[420px] sm:max-h-[197px] xl:h-full xl:rounded lg:min-w-[350px] border border-transparent rounded-2xl"
                 src="/src/assets/Images/Banners/Ideas banner purple.png"
@@ -127,7 +127,7 @@ const Marketplace = () => {
                 <SliderArrow />
               </div>
             </div>
-            <div className="xl:mt-[32px] xl:mb-[50px] lg:mt-[32px] lg:mb-[50px] sm:mt-[20px] md:mb-[20px] sm:block mb:hidden">
+            <div className="xl:mt-[32px] xl:mb-[50px] lg:mt-[32px] lg:mb-[50px] sm:mt-[20px] md:mb-[20px] md:pl-0 sm:pl-5 sm:block mb:hidden">
               <Showing />
             </div>
             {/* Top trending women */}
@@ -218,8 +218,8 @@ const Marketplace = () => {
             </div>
             {/* woman man kids collection */}
             {/* Active Bar */}
-            <div className="xl:mt-[80px] xl:ml-[30px] xl:mb-[60px] lg:mt-[60px] lg:mb-[60px] mb:mt-[40px]  mb:pl-[28px] ">
-              <ul className="flex xl:gap-[80px]  mb:gap-[80px] lg:ml-[30px]">
+            <div className="xl:mt-[80px] xl:ml-[30px] xl:mb-[60px] lg:mt-[60px] lg:mb-[60px] mb:mt-[40px] md:pl-0 mb:pl-[28px] ">
+              <ul className="flex xl:gap-[80px]  mb:gap-[80px]">
                 <li
                   onMouseOver={handleHover}
                   className="cursor-pointer active:font-semibold "
@@ -244,7 +244,7 @@ const Marketplace = () => {
               </ul>
               <div className="relative sm:mb-[40px] md:max-w-[360px]">
                 <div
-                  className={`absolute ml-[-10px] mt-[10px] border border-[#6151FF] lg:w-[120px] mb:w-[100px] transition-all duration-300 lg:mb-0 sm:mb-[20px]  ${
+                  className={`absolute xl:ml-[-30px] mt-[10px] border border-[#6151FF] lg:w-[120px] mb:w-[100px] transition-all duration-300 lg:mb-0 sm:mb-[20px]  ${
                     hoverEl == "Women" && "block mb:left-0 "
                   } ${
                     hoverEl == "Men" &&

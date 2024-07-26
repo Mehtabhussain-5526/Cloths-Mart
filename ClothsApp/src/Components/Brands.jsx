@@ -40,13 +40,13 @@ const Brands = () => {
       <div className="flex bg-[#F9FBFF]">
         <LeftAside />
         {/* main body */}
-        <div className="max-w-[1200px] w-[100%] border">
+        <div className="max-w-[1200px] w-[100%] border border-r-0">
           <Nav />
           {/* divs after nav compnents */}
-          <div className="border xxl:pl-[80px] xl:pl-[40px] xl:pr-[40px] lg:pt-[47px] lg:pb-[100px] md:pr-[20px] md:pl-[20px] md:pt-[20px]">
+          <div className="border border-t-[1px] border-r-0 border-l-0 border-b-0 xxl:pl-[80px] xl:pl-[40px] xl:pr-[40px] lg:pt-[47px] lg:pb-[100px] md:pr-[20px] md:pl-[20px] md:pt-[20px]">
             {/* title and brands logos */}
-            <div className="flex items-center justify-between md:flex-col lg:flex-row lg:gap-0 md:gap-5">
-              <div className="lg:w-fit md:w-full sm:block mb:hidden md:pl-0 sm:pl-7">
+            <div className="flex items-center justify-between lg:gap-0 md:gap-5">
+              <div className="lg:w-fit md:w-fit sm:block mb:hidden md:pl-0 sm:pl-7">
                 <p className="xxl:text-[24px] text-[#808191] font-normal leading-6 tracking-tighter sm:text-[20px]">
                   Salesbag
                 </p>
@@ -59,7 +59,7 @@ const Brands = () => {
                 {logos.map((data, index) => (
                   <div
                     id={index}
-                    className="border border-gray-400 xxl:p-[3px] mb:p-[2px] item-center xxl:max-h-[80px] xxl:max-w-[80px] rounded-full xl:max-w-[55px] xl:max-h-[55px] md:max-h-[45px] md:max-w-[45px] lg:p-[2px] mb:hidden "
+                    className="border border-gray-400 xxl:p-[3px] mb:p-[2px] item-center xxl:max-h-[80px] xxl:max-w-[80px] rounded-full xl:max-w-[55px] xl:max-h-[55px] md:max-h-[45px] md:max-w-[45px] lg:p-[2px] md:block mb:hidden"
                   >
                     <img src={data.url} />
                   </div>
@@ -67,7 +67,7 @@ const Brands = () => {
               </div>
             </div>
             {/* Recomendation Banners */}
-            <div className="lg:mt-[50px] max-w-[1060px] md:mt-[30px] ">
+            <div className="lg:mt-[50px] max-w-[1060px] md:mt-[30px]">
               <div className="z-[-1]">
                 <img src="/src/assets/Images/Banners/Khadi banner.png" />
               </div>
@@ -143,7 +143,7 @@ const Brands = () => {
               </div>
             </div>
 
-            <div className="mb-[50px] md:px-0 mb:pr-9">
+            <div className="mb-[50px] md:px-0 mb:pr-9 max-w-[540px]">
               <ul className="flex lg:gap-[80px] md:gap-[75px] mb:justify-between lg:mt-[40px] ml-[30px] mb:mt-[44px]">
                 <li onClick={handleClick} className="">
                   Stitched
@@ -159,7 +159,7 @@ const Brands = () => {
                 </li>
               </ul>
               {/*  Must add a active bar here */}
-              <div className="relative lg:max-w-[550px] md:max-w-[525px]">
+              <div className="relative lg:max-w-[540px] md:max-w-[540px]">
                 <div
                   className={`absolute mt-[10px] border border-[#6151FF]  transition-all duration-300  ${
                     clickEl == "Stitched" &&
