@@ -72,7 +72,7 @@ const PinnedItemGrid = () => {
     <div className="xl:gap-[30px] lg:grid-cols-4 md:gap-[20px] mb:gap-[10px] mb:grid mb:grid-cols-2 sm:grid-cols-3 ">
       {collection.map((data, index) => (
         <div
-          className="lg:static mb:relative bg-white border border-transparent mb:rounded-xl  mb:p-[8px] mb:w-fit"
+          className="lg:static mb:relative bg-white border border-transparent mb:rounded-xl  xl:px-[15px] xl:py-[15px] mb:p-[8px] mb:w-fit"
           key={index}
         >
           <img
@@ -87,7 +87,7 @@ const PinnedItemGrid = () => {
                   src={data.logo}
                 />
                 <div className="lg:pr-0 mb:pr-[10px]">
-                  <p className="xl:text-[14px] xl:font-semibold xl:leading-5 xl:mb-[3px] lg:text-[12px] lg:font-semibold lg:leading-5 lg:mb-[3px] mb:text-[8px] mb:font-semibold mb:leading-[8px] mb:mb-[2px]">
+                  <p className="xl:text-[14px] xl:font-semibold xl:leading-5 xl:mb-[2px] lg:text-[12px] lg:font-semibold lg:leading-5 lg:mb-[3px] mb:text-[8px] mb:font-semibold mb:leading-[8px] mb:mb-[2px]">
                     {data.brand}
                   </p>
                   <p className="xl:text-[12px] text-[#808191] xl:font-normal xl:leading-4 lg:text-[10px] lg:font-normal lg:leading-4 mb:text-[7px] mb:leading-[8px]">

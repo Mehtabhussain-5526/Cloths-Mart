@@ -16,21 +16,21 @@ const PinnedItems = () => {
           <Nav />
 
           {/* divs after nav compnents */}
-          <div className="border border-r-transparent border-b-transparent border-l-transparent pl-[80px] xl:pt-[47px] pb-[100px] md:px-[20px] xl:pl-[40px] xl:pr-[50px] md:pt-[20px] mb:px-[35px]">
+          <div className="border border-r-transparent border-b-transparent border-l-transparent pl-[80px] xl:pt-[47px] pb-[100px] md:px-[20px] xl:pl-[40px] xl:pr-[98px] md:pt-[20px]  mb:px-[20px]">
             {/* title and selction btn */}
             <div className="md:block mb:hidden">
-              <div className="flex justify-between items-center mb-[50px] max-w-[1000px]">
+              <div className="flex justify-between items-center mb-[50px] max-w-[1058px]">
                 <div className="">
-                  <p className=" text-[#808191]  xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[20px] lg:font-normal lg:leading-6 lg:tracking-tighter lg:max-w-fit md:text-[20px]  md:font-normal md:leading-6 md:tracking-tighter md:max-w-fit">
+                  <p className=" text-[#808191] mb-[8px] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[0px] lg:font-normal lg:leading-6 lg:tracking-tighter lg:max-w-fit md:text-[20px]  md:font-normal md:leading-6 md:tracking-tighter md:max-w-fit">
                     Salesbag
                   </p>
-                  <p className="xl:text-[48px] xl:font-semibold xl:leading-[56px] xl:tracking-tighter lg:mb-[35px] lg:text-[35px] md:font-semibold lg:leading-[56px] lg:tracking-tighter lg:max-w-fit md:text-[30px] md:leading-[30px] ">
+                  <p className="xl:text-[48px] xl:font-semibold xl:leading-[56px] xl:tracking-tighter lg:mb-[0px] lg:text-[35px] md:font-semibold lg:leading-[56px] lg:tracking-tighter lg:max-w-fit md:text-[30px] md:leading-[30px] ">
                     Pinned Items
                   </p>
                 </div>
                 <div className="items-end">
                   <ul>
-                    <li className="font-normal leading-5 tracking-tighter mt-[50px] hover:text-[#6151FF] underline">
+                    <li className="font-normal leading-5 tracking-tighter mt-[68px] hover:text-[#6151FF] underline">
                       Select pinned items
                     </li>
                   </ul>
@@ -55,7 +55,7 @@ const PinnedItems = () => {
               </div>
             </div>
             {/* collection */}
-            <div className=" max-w-[1000px]">
+            <div className=" max-w-[1058px]">
               <PinnedItemGrid />
             </div>
           </div>

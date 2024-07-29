@@ -47,7 +47,7 @@ const Brands = () => {
             {/* title and brands logos */}
             <div className="flex items-center justify-between lg:gap-0 md:gap-5">
               <div className="lg:w-fit md:w-fit sm:block mb:hidden md:pl-0 sm:pl-7">
-                <p className="xxl:text-[24px] text-[#808191] font-normal leading-6 tracking-tighter sm:text-[20px]">
+                <p className="xxl:text-[24px] text-[#808191] font-normal leading-6 tracking-tighter sm:text-[20px] mb-2">
                   Salesbag
                 </p>
                 <p className="xxl:text-[48px] font-semibold leading-[56px]  tracking-tighter xl:text-[35px] lg:text-[30px] lg:leading-[48px] sm:text-[30px] md:leading-[30px]">
@@ -67,12 +67,12 @@ const Brands = () => {
               </div>
             </div>
             {/* Recomendation Banners */}
-            <div className="lg:mt-[50px] max-w-[1060px] md:mt-[30px]">
+            <div className="lg:mt-[49px] max-w-[1060px] md:mt-[30px]">
               <div className="z-[-1]">
                 <img src="/src/assets/Images/Banners/Khadi banner.png" />
               </div>
               <div className="xxl:max-h-[130px] lg:flex justify-between xl:gap-[20px] xl:min-h-[130px] md:flex-none-none ">
-                <div className="flex sm:gap-[40px] mb:gap-5 items-center">
+                <div className="flex sm:gap-[40px] mb:gap-[14px] items-center">
                   <div className="sm:ml-[43px] w-full xxl:max-h-[160px] xxl:max-w-[160px] xl:max-w-[130px] xl:max-h-[130px] xxl:mt-[-40px]  xl:mt-[-60px] md:max-w-[100px] md:max-h-[100px] lg:mt-[-55px] md:mt-[-25px] mb:max-w-[100px] mb:mt-[-20px] mb:ml-[30px] ">
                     <img
                       src="/src/assets/Images/Brands Logo/gulahmed.svg"
@@ -92,7 +92,7 @@ const Brands = () => {
                 {/* Stats */}
                 <div className="mb:flex xxl:gap-[60px] md:items-end text-end lg:gap-[30px] lg:mt-[50px] mb:justify-end md:mt-[80px] md:gap-[80px] sm:mt-[40px] mb:mt-[60px] mb:gap-[80px] md:pr-0 sm:gap-[100px] sm:pr-[60px] mb:pr-[30px]">
                   <div className="text-left ">
-                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]  mb:text-[32px]">
+                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px]  mb:text-[32px] mb-[10px]">
                       162
                     </p>
                     <p className="xl:text-[16px] font-normal leading-6 tracking-tighter xl:mt-[10px] lg:text-[14px]  mb:text-[16px]">
@@ -100,7 +100,7 @@ const Brands = () => {
                     </p>
                   </div>
                   <div className="text-left ">
-                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px] mb:text-[32px]">
+                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px] mb:text-[32px] mb-[10px]">
                       10+
                     </p>
                     <p className="xl:text-[16px] font-normal leading-6 tracking-tighter xl:mt-[10px] lg:text-[14px] mb:text-[16px] ">
@@ -108,7 +108,7 @@ const Brands = () => {
                     </p>
                   </div>
                   <div className="text-left ">
-                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px] mb:text-[32px]">
+                    <p className=" xl:text-[32px] font-bold leading-6 tracking-tighter lg:text-[26px] mb:text-[32px] mb-[10px]">
                       96k
                     </p>
                     <p className="xl:text-[16px] font-normal leading-6 tracking-tighter xl:mt-[10px] lg:text-[14px] mb:text-[16px] ">
@@ -143,7 +143,7 @@ const Brands = () => {
               </div>
             </div>
 
-            <div className="mb-[50px] md:px-0 mb:pr-9 max-w-[540px]">
+            <div className="sm:mb-[50px] md:px-0 mb:pr-9 max-w-[540px] mb:mb-[14px]">
               <ul className="flex lg:gap-[80px] md:gap-[75px] mb:justify-between lg:mt-[40px] ml-[30px] mb:mt-[44px]">
                 <li onClick={handleClick} className="">
                   Stitched
@@ -159,9 +159,9 @@ const Brands = () => {
                 </li>
               </ul>
               {/*  Must add a active bar here */}
-              <div className="relative lg:max-w-[540px] md:max-w-[540px]">
+              <div className="relative lg:max-w-[540px] md:max-w-[540px] sm:block mb:hidden">
                 <div
-                  className={`absolute mt-[10px] border border-[#6151FF]  transition-all duration-300  ${
+                  className={`absolute mt-[10px] border border-[#6151FF]  transition-all duration-300 sm:block mb:hidden ${
                     clickEl == "Stitched" &&
                     "block   lg:left-[0%]   lg:w-[120px]  md:left-[0%]   md:w-[110px] sm:left-[20px] sm:w-[90px] mb:left-[20px] mb:w-[90px]"
                   } ${

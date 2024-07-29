@@ -129,7 +129,7 @@ const Nav = () => {
               New Post
             </span>
             <span>
-              <PlusSignInviteBtn />{" "}
+              <PlusSignInviteBtn />
             </span>
           </button>
           <SearchIcon />
@@ -185,14 +185,14 @@ const Nav = () => {
           <div className="relative">
             <img src={data.url} />
             <div className="absolute top-0 right-0">
-              {" "}
-              <GreenDot />{" "}
+              
+              <GreenDot />
             </div>
           </div>
         ))}
       </div>
       <div
-        className={`flex gap-3 py-5 mb:px-5 sm:px-12 mb:justify-between md:hidden border-b-[1px] ${
+        className={`flex gap-[14px] py-5 mb:px-5 sm:px-12 mb:justify-between md:hidden border-b-[1px] ${
           location.pathname !== "/brands" && "hidden"
         }`}
       >

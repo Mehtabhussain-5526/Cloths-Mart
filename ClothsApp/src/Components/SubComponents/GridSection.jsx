@@ -68,10 +68,10 @@ const GridSection = () => {
     },
   ];
   return (
-    <div className="xl:gap-[30px] lg:grid-cols-4 mb:gap-[20px] grid sm:grid-cols-3 mb:grid-cols-2 md:px-0">
+    <div className="xl:gap-[30px] lg:grid-cols-4 mb:gap-[10px] grid sm:grid-cols-3 mb:grid-cols-2 md:px-0">
       {collection.map((data, index) => (
         <div
-          className="mb:relative bg-white border border-transparent mb:rounded-xl  mb:p-[8px] sm:w-fit"
+          className="mb:relative bg-white border border-transparent mb:rounded-xl  mb:px-[9px] mb:py-[11px] sm:w-fit"
           key={index}
         >
           <img

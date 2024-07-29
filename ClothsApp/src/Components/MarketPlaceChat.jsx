@@ -36,12 +36,12 @@ const MarketPlaceChat = () => {
                     src="/src/assets/Images/Avatars/Leslie.png"
                   />
                   <input
-                    className="bg-[#F0F0F0] border border-transparent rounded-md lg:pl-[25px] sm:pl-[25px] lg:py-[18px] sm:py-[15px]  w-full outline-none"
+                    className="bg-[#F0F0F0] border border-transparent rounded-md lg:pl-[27px] sm:pl-[27px] lg:pb-[18px] lg:pt-[20px] sm:py-[15px] w-full outline-none"
                     placeholder="Write Something"
                   />
                 </div>
                 <div className="text-right">
-                  <button className="sm:px-[30px] bg-[#6151FF] sm:py-[10px] border border-transparent rounded-md text-white lg:my-[32px] sm:my-[20px] md:mr-0 sm:mr-5 ">
+                  <button className="sm:px-[30px] bg-[#6151FF] sm:py-[10px] border border-transparent rounded-md text-white lg:mt-[32px] lg:mb-[34px] sm:my-[20px] md:mr-0 sm:mr-5 ">
                     Post
                   </button>
                 </div>
@@ -51,17 +51,17 @@ const MarketPlaceChat = () => {
               <div className="bg-white lg:pt-[32px] mb:pt-[20px] mb:px-[25px] border border-transparent rounded-md md:mx-0 sm:my-0 mb:mx-[20px] mb:mt-[16px] mb:mb-[24px] ">
                 <div className="flex justify-between lg:mb-[35px] md:mb-5 mb:mb-[18px]">
                   <div className="flex lg:max-w-[280px] mb:gap-[13px] items-center">
-                    <div className="sm:max-w-[49px] mb:max-w-[34px] ">
+                    <div className="sm:max-w-[65px] mb:max-w-[34px]">
                       <img
                         className="xxl:max-h-[65px] xxl:max-w-[65px] lg:max-w-[50px] xl:max-w-[57px]"
                         src="/src/assets/Images/Avatars/Lindsay 65x65.png"
                       />
                     </div>
                     <div>
-                      <p className="text-[#878787] md:leading-5 font-normal sm:mb-[3px] sm:text-[16px] mb:text-[10px] mb:leading-3">
+                      <p className="text-[#878787] md:leading-5 font-normal sm:mb-[4px] sm:text-[16px] mb:text-[10px] mb:leading-3 mb:mb-[2.28px]">
                         Today at 1:30 pm
                       </p>
-                      <p className="sm:text-[24px] mb:font-semibold sm:leading-8 tracking-tighter text-[13px] mb:leading-4">
+                      <p className="sm:text-[24px] mb:font-semibold sm:leading-8 tracking-tighter text-[13px] mb:leading-[17px]">
                         Lindsay Walton
                       </p>
                     </div>
@@ -94,7 +94,7 @@ const MarketPlaceChat = () => {
                   &nbsp; unaffected projection.
                 </p>
                 {/* Images of posts */}
-                <div className="flex sm:gap-[20px] mb:gap-[10px]">
+                <div className="flex sm:gap-[24px] mb:gap-[10px]">
                   <div className="">
                     <img
                       className="border border-transparent rounded-lg"
@@ -124,8 +124,9 @@ const MarketPlaceChat = () => {
                     </div>
                   </div>
                 </div>
+                {/* hidden for SM and above */}
                 <div className="sm:hidden ">
-                  <div className="flex justify-between mt-[20px] mb-[18px] border-t-[1px] pt-[17px]">
+                  <div className="flex justify-between mt-[20px] mb-[18px] border-t-[1px] pt-[16px]">
                     <div className="flex items-center gap-2 text-[#595959] font-medium text-[10px] leading-[10px]">
                       <div>
                         <LikeHallow />
@@ -168,7 +169,7 @@ const MarketPlaceChat = () => {
                 {/* like share send */}
                 {/* hidden for 420px */}
                 <div className="sm:block mb:hidden">
-                  <div className="border border-x-transparent flex justify-between items-center pl-[25px] pb-[16px] sm:pt-[16px] pr-[40px]">
+                  <div className="border border-x-transparent flex justify-between items-center pl-[25px] pb-[12px] sm:pt-[15px] pr-[40px]">
                     <div className="flex items-center sm:gap-[8px] lg:text-[16px] sm:text-[14px]">
                       <LikeHallow /> <p>Liked &#40;56&#41;</p>
                     </div>
@@ -189,7 +190,7 @@ const MarketPlaceChat = () => {
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
@@ -220,7 +221,7 @@ const MarketPlaceChat = () => {
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
@@ -247,7 +248,7 @@ const MarketPlaceChat = () => {
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
+                    <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
                         <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
@@ -274,7 +275,7 @@ const MarketPlaceChat = () => {
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
                       src="/src/assets/Images/Avatars/Dries.png"
                     />
-                    <div className="flex border border-transparent rounded-md bg-[#F0F0F0] sm:pt-[18px] pr-[35px] pl-[25px] justify-between">
+                    <div className="flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:pt-[18px] pr-[35px] pl-[25px] justify-between">
                       <div className="">
                         <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                           Frances Guerrero
@@ -284,7 +285,7 @@ const MarketPlaceChat = () => {
                       </div>
                     </div>
                   </div>
-                  <p className="text-[#595959] font-medium text-[14px] leading-6 lg:ml-[60px] md:ml-[25px] mt-[25px] pb-[35px] ">
+                  <p className="text-[#595959] font-medium text-[14px] leading-6 lg:ml-[60px] md:ml-[25px] mt-[25px] pb-[27px] ">
                     ... Load more comments
                   </p>
                 </div>
@@ -301,10 +302,10 @@ const MarketPlaceChat = () => {
                       />
                     </div>
                     <div>
-                      <p className="text-[#878787] md:leading-5 font-normal lg:mb-[3px] md:text-[16px] mb:text-[10px] mb:leading-3">
+                      <p className="text-[#878787] md:leading-5 font-normal lg:mb-[3px] md:text-[16px] mb:text-[10px] mb:leading-3 mb:mb-[2.28px]">
                         Clothing Store
                       </p>
-                      <p className="md:text-[24px] font-semibold md:leading-8 tracking-tighter mb:leading-4 mb:txet-[13px]">
+                      <p className="md:text-[24px] font-semibold md:leading-8 tracking-tighter mb:leading-[17px] mb:txet-[13px]">
                         Clothing Blog
                       </p>
                     </div>
@@ -335,10 +336,10 @@ const MarketPlaceChat = () => {
                       />
                     </div>
                     <div>
-                      <p className="text-[#878787] md:leading-5 font-normal lg:mb-[3px] md:text-[16px] mb:text-[10px] mb:leading-3">
+                      <p className="text-[#878787] md:leading-5 font-normal lg:mb-[3px] md:text-[16px] mb:text-[10px] mb:leading-3 mb:mb-[2.28px]">
                         Today at 1:30 pm • 2hrs
                       </p>
-                      <p className="md:text-[24px] font-semibold md:leading-8 tracking-tighter mb:text-[13px] mb:leading-4">
+                      <p className="md:text-[24px] font-semibold md:leading-8 tracking-tighter mb:text-[13px] mb:leading-[17px]">
                         Lori Ferguson
                       </p>
                     </div>
@@ -378,8 +379,8 @@ const MarketPlaceChat = () => {
                   />
                 </div>
                 {/* like comment share bar hidden for 640 and above */}
-                <div className="sm:hidden ">
-                  <div className="flex justify-between mt-[20px] mb-[18px] pb-[18px] border-t-[1px] pt-[16px]">
+                <div className="sm:hidden mb-[18px]">
+                  <div className="flex justify-between mt-[20px] pb-[18px] border-t-[1px] pt-[16px]">
                     <div className="flex items-center gap-2 text-[#595959] font-medium text-[10px] leading-[10px]">
                       <div>
                         <LikeHallow />
@@ -461,7 +462,7 @@ const MarketPlaceChat = () => {
                         className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
                         src="/src/assets/Images/Avatars/Dries.png"
                       />
-                      <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
+                      <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                         <div className="">
                           <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                             Frances Guerrero
@@ -494,7 +495,7 @@ const MarketPlaceChat = () => {
                         className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
                         src="/src/assets/Images/Avatars/Dries.png"
                       />
-                      <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
+                      <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                         <div className="">
                           <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                             Frances Guerrero
@@ -523,7 +524,7 @@ const MarketPlaceChat = () => {
                         className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
                         src="/src/assets/Images/Avatars/Dries.png"
                       />
-                      <div className=" flex border border-transparent rounded-md bg-[#F0F0F0] lg:py-[18px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
+                      <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                         <div className="">
                           <p className="lg:text-[18px] md:text-[16px] font-medium leading-6">
                             Frances Guerrero
