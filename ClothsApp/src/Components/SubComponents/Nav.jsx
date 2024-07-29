@@ -24,33 +24,33 @@ import { Link, useLocation } from "react-router-dom";
 const Nav = () => {
   const location = useLocation();
   const Avatars = [
-    { url: "/src/assets/Images/Avatars/henry.png" },
-    { url: "/src/assets/Images/Avatars/leslie.png" },
-    { url: "/src/assets/Images/Avatars/lindsay.png" },
-    { url: "/src/assets/Images/Avatars/michael.png" },
-    { url: "/src/assets/Images/Avatars/tom-cook.png" },
+    { url: "/src/assets/images/avatars/henry.png" },
+    { url: "/src/assets/images/avatars/leslie.png" },
+    { url: "/src/assets/images/avatars/lindsay.png" },
+    { url: "/src/assets/images/avatars/michael.png" },
+    { url: "/src/assets/images/avatars/tom-cook.png" },
   ];
   const logos = [
     {
-      url: "/src/assets/Images/Brands Logo/gulahmed-rounded.svg",
+      url: "/src/assets/images/brands-logo/gulahmed-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/j-dot-rounded.svg",
+      url: "/src/assets/images/brands-logo/j-dot-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/khadi-rounded.svg",
+      url: "/src/assets/images/brands-logo/khadi-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
+      url: "/src/assets/images/brands-logo/sapphire-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/gap-rounded.svg",
+      url: "/src/assets/images/brands-logo/gap-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/alkaram-rounded.svg",
+      url: "/src/assets/images/brands-logo/alkaram-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/ego-rounded.svg",
+      url: "/src/assets/images/brands-logo/ego-rounded.svg",
     },
   ];
   return (
@@ -108,7 +108,7 @@ const Nav = () => {
               <div className="flex items-center gap-3">
                 <img
                   className="cursor-pointer"
-                  src="/src/assets/Images/Avatars/Leslie.png"
+                  src="/src/assets/images/avatars/Leslie.png"
                 />
                 <ArrowDown className="cursor-pointer" />
               </div>
@@ -121,7 +121,7 @@ const Nav = () => {
       <div className="md:hidden flex items-center justify-between gap-[100px] px-[32px] py-[16px] w-screen">
         <div className="flex items-center gap-[11px]">
           <ManuBar />
-          <img src="/src/assets/Images/Avatars/Leslie.png" />
+          <img src="/src/assets/images/avatars/Leslie.png" />
         </div>
         <div className="flex items-center gap-[19px]">
           <button className="bg-[#6151FF] text-white border border-transparent rounded-[5000px] py-[6px] px-[20px] flex justify-center items-center gap-[6px]">

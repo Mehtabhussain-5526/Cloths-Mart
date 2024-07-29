@@ -10,42 +10,42 @@ const OnlinePeople = () => {
         <div className="flex gap-3  mt-[30px] items-center lg:ml-[19px] lg:max-w-fit">
           <img
             className="h-[44px] w-[44px]"
-            src="/src/assets/Images/Avatars/leslie.png"
+            src="/src/assets/images/avatars/leslie.png"
           />{" "}
           <p>Leslie</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
           <img
             className="h-[44px] w-[44px]"
-            src="/src/assets/Images/Avatars/lindsay.png"
+            src="/src/assets/images/avatars/lindsay.png"
           />{" "}
           <p>Lindsay</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
           <img
             className="h-[44px] w-[44px]"
-            src="/src/assets/Images/Avatars/henry.png"
+            src="/src/assets/images/avatars/henry.png"
           />{" "}
           <p>Henry</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
           <img
             className="h-[44px] w-[44px]"
-            src="/src/assets/Images/Avatars/michael.png"
+            src="/src/assets/images/avatars/michael.png"
           />{" "}
           <p>Michael</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
           <img
             className="h-[44px] w-[44px]"
-            src="/src/assets/Images/Avatars/dries.png"
+            src="/src/assets/images/avatars/dries.png"
           />{" "}
           <p>Dries</p>
         </div>
         <div className="flex gap-3  mt-[20px] items-center lg:ml-[19px] lg:max-w-fit">
           <img
             className="h-[44px] w-[44px]"
-            src="/src/assets/Images/Avatars/tom-cook.png"
+            src="/src/assets/images/avatars/tom-cook.png"
           />{" "}
           <p>Tom Cook</p>
         </div>

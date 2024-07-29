@@ -11,28 +11,28 @@ const Brands = () => {
   };
   const logos = [
     {
-      url: "/src/assets/Images/Brands Logo/gulahmed-rounded.svg",
+      url: "/src/assets/images/brands-logo/gulahmed-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/j-dot-rounded.svg",
+      url: "/src/assets/images/brands-logo/j-dot-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/khadi-rounded.svg",
+      url: "/src/assets/images/brands-logo/khadi-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
+      url: "/src/assets/images/brands-logo/sapphire-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/gap-rounded.svg",
+      url: "/src/assets/images/brands-logo/gap-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/alkaram-rounded.svg",
+      url: "/src/assets/images/brands-logo/alkaram-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/ego-rounded.svg",
+      url: "/src/assets/images/brands-logo/ego-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/almirah-rounded.svg",
+      url: "/src/assets/images/brands-logo/almirah-rounded.svg",
     },
   ];
   return (
@@ -69,13 +69,13 @@ const Brands = () => {
             {/* Recomendation Banners */}
             <div className="lg:mt-[49px] max-w-[1060px] md:mt-[30px]">
               <div className="z-[-1]">
-                <img src="/src/assets/Images/Banners/Khadi-banner.png" />
+                <img src="/src/assets/images/banners/Khadi-banner.png" />
               </div>
               <div className="xxl:max-h-[130px] lg:flex justify-between xl:gap-[20px] xl:min-h-[130px] md:flex-none-none ">
                 <div className="flex sm:gap-[40px] mb:gap-[14px] items-center">
                   <div className="sm:ml-[43px] w-full xxl:max-h-[160px] xxl:max-w-[160px] xl:max-w-[130px] xl:max-h-[130px] xxl:mt-[-40px]  xl:mt-[-60px] md:max-w-[100px] md:max-h-[100px] lg:mt-[-55px] md:mt-[-25px] mb:max-w-[100px] mb:mt-[-20px] mb:ml-[30px] ">
                     <img
-                      src="/src/assets/Images/Brands Logo/gulahmed.svg"
+                      src="/src/assets/images/brands-logo/gulahmed.svg"
                       className=""
                     />
                   </div>

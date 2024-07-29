@@ -26,7 +26,7 @@ const RightAside = () => {
         <div>
           <img
             className=" mt-[50px] lg:mb-[50px]"
-            src="/src/assets/Images/Banners/ideas-vertical.png"
+            src="/src/assets/images/banners/ideas-vertical.png"
           />
         </div>
         <div className="xl:max-w-[150px] xl:mt-[30px] md:mt-[50px] lg:mr-0 md:pr-8">

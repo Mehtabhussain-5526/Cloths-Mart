@@ -9,7 +9,7 @@ const Groups = () => {
         <div className="flex gap-4  lg:ml-[19px] md:ml-0 mb-[20px]  lg:max-w-fit">
           <img
             className="max-w-[44px] max-h-[44px] "
-            src="/src/assets/Images/Avatars/family-discussion.png"
+            src="/src/assets/images/avatars/family-discussion.png"
           />
           <div>
             <p className="font-normal lg:text-[14px] md:text-[12px]  leading-5 mb-[2px]">
@@ -21,7 +21,7 @@ const Groups = () => {
         <div className="flex gap-4  lg:ml-[19px] md:ml-0 mb-[20px]  lg:max-w-fit">
           <img
             className="max-w-[44px] max-h-[44px] "
-            src="/src/assets/Images/Avatars/friends.png"
+            src="/src/assets/images/avatars/friends.png"
           />
           <div>
             <p className="font-normal lg:text-[14px] md:text-[12px] leading-5 mb-[2px]">
@@ -33,7 +33,7 @@ const Groups = () => {
         <div className="flex gap-4  lg:ml-[19px] md:ml-0 mb-[20px]  lg:max-w-fit">
           <img
             className="max-w-[44px] max-h-[44px] "
-            src="/src/assets/Images/Avatars/business-chat.png"
+            src="/src/assets/images/avatars/business-chat.png"
           />
           <div>
             <p className="font-normal lg:text-[14px] md:text-[12px] leading-5 mb-[2px]">
