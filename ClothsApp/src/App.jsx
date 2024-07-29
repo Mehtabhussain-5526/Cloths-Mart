@@ -3,7 +3,6 @@ import Brands from "./Components/Brands";
 import PinnedItems from "./Components/PinnedItems";
 import MarketPlaceChat from "./Components/MarketPlaceChat";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import ModalNewChat from './Components/ModalNewChat';
 
 const App = () => {
   return (
@@ -16,7 +15,6 @@ const App = () => {
               <Route path="brands" element={<Brands />} />
               <Route path="/marketplacechat" element={<MarketPlaceChat />} />
               <Route path="/pinneditems" element={<PinnedItems />} />
-              <Route path="/modal" element={<ModalNewChat/>}/>
             </Routes>
           </HashRouter>
         </div>

@@ -185,7 +185,6 @@ const Nav = () => {
           <div className="relative">
             <img src={data.url} />
             <div className="absolute top-0 right-0">
-              
               <GreenDot />
             </div>
           </div>
