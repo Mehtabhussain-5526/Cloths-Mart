@@ -24,33 +24,33 @@ import { Link, useLocation } from "react-router-dom";
 const Nav = () => {
   const location = useLocation();
   const Avatars = [
-    { url: "/src/assets/Images/Avatars/Henry.png" },
-    { url: "/src/assets/Images/Avatars/Leslie.png" },
-    { url: "/src/assets/Images/Avatars/Lindsay.png" },
-    { url: "/src/assets/Images/Avatars/Michael.png" },
-    { url: "/src/assets/Images/Avatars/Tom Cook.png" },
+    { url: "/src/assets/Images/Avatars/henry.png" },
+    { url: "/src/assets/Images/Avatars/leslie.png" },
+    { url: "/src/assets/Images/Avatars/lindsay.png" },
+    { url: "/src/assets/Images/Avatars/michael.png" },
+    { url: "/src/assets/Images/Avatars/tom-cook.png" },
   ];
   const logos = [
     {
-      url: "/src/assets/Images/Brands Logo/gulahmed rounded.svg",
+      url: "/src/assets/Images/Brands Logo/gulahmed-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/J dot rounded.svg",
+      url: "/src/assets/Images/Brands Logo/j-dot-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/khadi rounded.svg",
+      url: "/src/assets/Images/Brands Logo/khadi-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      url: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/GAP rounded.svg",
+      url: "/src/assets/Images/Brands Logo/gap-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/Alkaram rounded.svg",
+      url: "/src/assets/Images/Brands Logo/alkaram-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/EGO rounded.svg",
+      url: "/src/assets/Images/Brands Logo/ego-rounded.svg",
     },
   ];
   return (
