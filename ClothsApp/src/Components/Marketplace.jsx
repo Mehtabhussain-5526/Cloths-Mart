@@ -11,32 +11,32 @@ const Marketplace = () => {
   };
   const trending = [
     {
-      url: "/src/assets/Images/Models/Women/woman 1.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      url: "/src/assets/Images/Models/Women/woman1.png",
+      logo: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 2.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      url: "/src/assets/Images/Models/Women/woman2.png",
+      logo: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 3.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      url: "/src/assets/Images/Models/Women/woman3.png",
+      logo: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 4.png",
-      logo: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      url: "/src/assets/Images/Models/Women/woman4.png",
+      logo: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
@@ -45,32 +45,32 @@ const Marketplace = () => {
   ];
   const trendingmen = [
     {
-      url: "/src/assets/Images/Models/Men/man 1.png",
-      logo: "/src/assets/Images/Brands Logo/Alkaram rounded.svg",
+      url: "/src/assets/Images/Models/Men/man1.png",
+      logo: "/src/assets/Images/Brands Logo/alkaram-rounded.svg",
       brand: "Al Karam",
       type: "Unstiched",
       price: "PKR 3600",
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Men/man 2.png",
-      logo: "/src/assets/Images/Brands Logo/Alkaram rounded.svg",
+      url: "/src/assets/Images/Models/Men/man2.png",
+      logo: "/src/assets/Images/Brands Logo/alkaram-rounded.svg",
       brand: "Al Karam",
       type: "Unstiched",
       price: "PKR 4999",
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Men/man 3.png",
-      logo: "/src/assets/Images/Brands Logo/khadi rounded.svg",
+      url: "/src/assets/Images/Models/Men/man3.png",
+      logo: "/src/assets/Images/Brands Logo/khadi-rounded.svg",
       brand: "Khaadi",
       type: "Unstiched",
       price: "PKR 12,600",
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Men/man 4.png",
-      logo: "/src/assets/Images/Brands Logo/khadi rounded.svg",
+      url: "/src/assets/Images/Models/Men/man4.png",
+      logo: "/src/assets/Images/Brands Logo/khadi-rounded.svg",
       brand: "Khaadi",
       type: "Unstiched",
       price: "PKR 12,600",
@@ -88,25 +88,23 @@ const Marketplace = () => {
               <p className=" text-[#808191] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[40px] lg:font-normal lg:leading-6 lg:max-w-fit sm:text-[20px] sm:mt-[20px] sm:font-normal sm:leading-6 sm:tracking-tighter sm:max-w-fit sm:block mb:hidden mb-[8px]">
                 Salesbag
               </p>
-              <p
-                className="xl:text-[48px] xl:font-semibold lg:mb-[50px] lg:text-[35px] lg:font-semibold lg:leading-[56px] lg:max-w-fit md:mb-[20px] sm:text-[30px] sm:font-semibold sm:leading-[30px] sm:tracking-tighter sm:max-w-fit sm:block mb:hidden"
-              >
+              <p className="xl:text-[48px] xl:font-semibold lg:mb-[50px] lg:text-[35px] lg:font-semibold lg:leading-[56px] lg:max-w-fit md:mb-[20px] sm:text-[30px] sm:font-semibold sm:leading-[30px] sm:tracking-tighter sm:max-w-fit sm:block mb:hidden">
                 Market Place
               </p>
             </div>
             <div className="mb:relative flex overflow overflow-x-hidden xl:gap-[30px] mb:gap-[14px] mb:mt-5 md:mt-0 mb:min-h-[180px] md:pl-0 mb:pl-5">
               <img
                 className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl"
-                src="/src/assets/Images/Banners/Ideas banner purple.png"
+                src="/src/assets/Images/Banners/ideas-banner-purple.png"
               />
               {/* mobile dev img */}
               <img
                 className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
-                src="/src/assets/Images/Banners/ideas vertical.png"
+                src="/src/assets/Images/Banners/ideas-vertical.png"
               />
               <img
                 className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl"
-                src="/src/assets/Images/Banners/Ideas banner green.png"
+                src="/src/assets/Images/Banners/ideas-banner-green.png"
               />
               {/* mobile dev img */}
               <img
@@ -115,7 +113,7 @@ const Marketplace = () => {
               />
               <img
                 className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl "
-                src="/src/assets/Images/Banners/Ideas banner purple.png"
+                src="/src/assets/Images/Banners/ideas-banner-purple.png"
               />
               {/* mobile dev img */}
               <img

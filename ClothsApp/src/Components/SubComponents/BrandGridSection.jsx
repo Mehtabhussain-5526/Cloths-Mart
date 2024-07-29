@@ -1,7 +1,7 @@
 const BrandGridSection = () => {
   const collection = [
     {
-      url: "/src/assets/Images/Models/Women/woman 7.png",
+      url: "/src/assets/Images/Models/Women/woman7.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -9,7 +9,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 8.png",
+      url: "/src/assets/Images/Models/Women/woman8.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -17,7 +17,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 9.png",
+      url: "/src/assets/Images/Models/Women/woman9.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -25,7 +25,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 10.png",
+      url: "/src/assets/Images/Models/Women/woman10.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -33,7 +33,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 11.png",
+      url: "/src/assets/Images/Models/Women/woman11.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -41,7 +41,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 12.png",
+      url: "/src/assets/Images/Models/Women/woman12.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -49,7 +49,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 13.png",
+      url: "/src/assets/Images/Models/Women/woman13.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -57,7 +57,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 14.png",
+      url: "/src/assets/Images/Models/Women/woman14.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -65,7 +65,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 15.png",
+      url: "/src/assets/Images/Models/Women/woman15.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -73,7 +73,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 16.png",
+      url: "/src/assets/Images/Models/Women/woman16.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -81,7 +81,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 17.png",
+      url: "/src/assets/Images/Models/Women/woman17.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -89,7 +89,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 18.png",
+      url: "/src/assets/Images/Models/Women/woman18.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -97,7 +97,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 11.png",
+      url: "/src/assets/Images/Models/Women/woman11.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -105,7 +105,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 12.png",
+      url: "/src/assets/Images/Models/Women/woman12.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -113,7 +113,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 13.png",
+      url: "/src/assets/Images/Models/Women/woman13.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",
@@ -121,7 +121,7 @@ const BrandGridSection = () => {
       liked: "",
     },
     {
-      url: "/src/assets/Images/Models/Women/woman 14.png",
+      url: "/src/assets/Images/Models/Women/woman14.png",
       intro: "Needle Craft Embroidered Shirt WGK-KDW",
       brand: "Sapphire",
       type: "Unstiched",

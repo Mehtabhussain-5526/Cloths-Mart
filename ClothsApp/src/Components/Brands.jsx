@@ -11,28 +11,28 @@ const Brands = () => {
   };
   const logos = [
     {
-      url: "/src/assets/Images/Brands Logo/gulahmed rounded.svg",
+      url: "/src/assets/Images/Brands Logo/gulahmed-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/J dot rounded.svg",
+      url: "/src/assets/Images/Brands Logo/j-dot-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/khadi rounded.svg",
+      url: "/src/assets/Images/Brands Logo/khadi-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/Sapphire rounded.svg",
+      url: "/src/assets/Images/Brands Logo/sapphire-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/GAP rounded.svg",
+      url: "/src/assets/Images/Brands Logo/gap-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/Alkaram rounded.svg",
+      url: "/src/assets/Images/Brands Logo/alkaram-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/EGO rounded.svg",
+      url: "/src/assets/Images/Brands Logo/ego-rounded.svg",
     },
     {
-      url: "/src/assets/Images/Brands Logo/Almirah rounded.svg",
+      url: "/src/assets/Images/Brands Logo/almirah-rounded.svg",
     },
   ];
   return (
@@ -69,7 +69,7 @@ const Brands = () => {
             {/* Recomendation Banners */}
             <div className="lg:mt-[49px] max-w-[1060px] md:mt-[30px]">
               <div className="z-[-1]">
-                <img src="/src/assets/Images/Banners/Khadi banner.png" />
+                <img src="/src/assets/Images/Banners/Khadi-banner.png" />
               </div>
               <div className="xxl:max-h-[130px] lg:flex justify-between xl:gap-[20px] xl:min-h-[130px] md:flex-none-none ">
                 <div className="flex sm:gap-[40px] mb:gap-[14px] items-center">

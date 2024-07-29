@@ -4,7 +4,6 @@ import GridSection from "./SubComponents/GridSection";
 import LefttAside from "./LeftAside";
 import PinnedItemGrid from "./SubComponents/PinnedItemGrid";
 import { CloseSignWithPurpleBG, ModalCloseBtn } from "../../util/logo";
-import ModalNewChat from "./ModalNewChat";
 const PinnedItems = () => {
   const [showModal, SetShowModal] = useState(false);
   const openModal = () => {
