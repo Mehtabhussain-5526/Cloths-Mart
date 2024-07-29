@@ -1,4 +1,10 @@
 import React from "react";
+import henry from "../../assets/Images/Avatars/Henry.png";
+import leslie from "../../assets/Images/Avatars/Leslie.png";
+import lindsay from "../../assets/Images/Avatars/Lindsay.png";
+import michael from "../../assets/Images/Avatars/Michael.png";
+import tomcook from "../../assets/Images/Avatars/tom-cook.png";
+import dries from "../../assets/Images/Avatars/Dries.png";
 
 const OnlinePeople = () => {
   return (
@@ -8,46 +14,22 @@ const OnlinePeople = () => {
           Online People
         </p>
         <div className="flex gap-3  mt-[30px] items-center lg:ml-[19px] lg:max-w-fit">
-          <img
-            className="h-[44px] w-[44px]"
-            src="/src/assets/images/avatars/leslie.png"
-          />{" "}
-          <p>Leslie</p>
+          <img className="h-[44px] w-[44px]" src={leslie} /> <p>Leslie</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
-          <img
-            className="h-[44px] w-[44px]"
-            src="/src/assets/images/avatars/lindsay.png"
-          />{" "}
-          <p>Lindsay</p>
+          <img className="h-[44px] w-[44px]" src={lindsay} /> <p>Lindsay</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
-          <img
-            className="h-[44px] w-[44px]"
-            src="/src/assets/images/avatars/henry.png"
-          />{" "}
-          <p>Henry</p>
+          <img className="h-[44px] w-[44px]" src={henry} /> <p>Henry</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
-          <img
-            className="h-[44px] w-[44px]"
-            src="/src/assets/images/avatars/michael.png"
-          />{" "}
-          <p>Michael</p>
+          <img className="h-[44px] w-[44px]" src={michael} /> <p>Michael</p>
         </div>
         <div className="flex gap-3  mt-[20px] mb-[20px] items-center lg:ml-[19px] lg:max-w-fit">
-          <img
-            className="h-[44px] w-[44px]"
-            src="/src/assets/images/avatars/dries.png"
-          />{" "}
-          <p>Dries</p>
+          <img className="h-[44px] w-[44px]" src={dries} /> <p>Dries</p>
         </div>
         <div className="flex gap-3  mt-[20px] items-center lg:ml-[19px] lg:max-w-fit">
-          <img
-            className="h-[44px] w-[44px]"
-            src="/src/assets/images/avatars/tom-cook.png"
-          />{" "}
-          <p>Tom Cook</p>
+          <img className="h-[44px] w-[44px]" src={tomcook} /> <p>Tom Cook</p>
         </div>
       </div>
     </>

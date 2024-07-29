@@ -1,5 +1,5 @@
 import React from "react";
-
+import vertical from "../../assets/Images/Banners/ideas-vertical.png";
 const RightAside = () => {
   const questions = [
     {
@@ -24,10 +24,7 @@ const RightAside = () => {
       {/* Side div */}
       <div className="xl:max-w-[180px]  xl:flex-none xl:flex-col xl:pl-[15px] xl:pr-[15px] md:flex md:flex-row-reverse md:justify-between md:pl-[30px] md:pr-[30px]">
         <div>
-          <img
-            className=" mt-[50px] lg:mb-[50px]"
-            src="/src/assets/images/banners/ideas-vertical.png"
-          />
+          <img className=" mt-[50px] lg:mb-[50px]" src={vertical} />
         </div>
         <div className="xl:max-w-[150px] xl:mt-[30px] md:mt-[50px] lg:mr-0 md:pr-8">
           <p className="leading-[19px] font-bold lg:mb-5 md:mb-4">

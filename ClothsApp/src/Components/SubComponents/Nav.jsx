@@ -20,37 +20,48 @@ import {
 } from "../../../util/logo";
 import InviteBtn from "./InviteBtn";
 import { Link, useLocation } from "react-router-dom";
-
+import henry from "../../assets/Images/Avatars/Henry.png";
+import leslie from "../../assets/Images/Avatars/Leslie.png";
+import lindsay from "../../assets/Images/Avatars/Lindsay.png";
+import michael from "../../assets/Images/Avatars/Michael.png";
+import tomcook from "../../assets/Images/Avatars/tom-cook.png";
+import gulahmed from "../../assets/Images/brands-logo/gulahmed-rounded.svg";
+import jdot from "../../assets/Images/brands-logo/j-dot-rounded.svg";
+import sapphire from "../../assets/Images/brands-logo/sapphire-rounded.svg";
+import gap from "../../assets/Images/brands-logo/gap-rounded.svg";
+import ego from "../../assets/Images/brands-logo/ego-rounded.svg";
+import khadi from "../../assets/Images/brands-logo/khadi-rounded.svg";
+import alkaram from "../../assets/Images/brands-logo/alkaram-rounded.svg";
 const Nav = () => {
   const location = useLocation();
   const Avatars = [
-    { url: "/src/assets/images/avatars/henry.png" },
-    { url: "/src/assets/images/avatars/leslie.png" },
-    { url: "/src/assets/images/avatars/lindsay.png" },
-    { url: "/src/assets/images/avatars/michael.png" },
-    { url: "/src/assets/images/avatars/tom-cook.png" },
+    { url: henry },
+    { url: leslie },
+    { url: lindsay },
+    { url: michael },
+    { url: tomcook },
   ];
   const logos = [
     {
-      url: "/src/assets/images/brands-logo/gulahmed-rounded.svg",
+      url: gulahmed,
     },
     {
-      url: "/src/assets/images/brands-logo/j-dot-rounded.svg",
+      url: jdot,
     },
     {
-      url: "/src/assets/images/brands-logo/khadi-rounded.svg",
+      url: khadi,
     },
     {
-      url: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: sapphire,
     },
     {
-      url: "/src/assets/images/brands-logo/gap-rounded.svg",
+      url: gap,
     },
     {
-      url: "/src/assets/images/brands-logo/alkaram-rounded.svg",
+      url: alkaram,
     },
     {
-      url: "/src/assets/images/brands-logo/ego-rounded.svg",
+      url: ego,
     },
   ];
   return (
@@ -106,10 +117,7 @@ const Nav = () => {
               </div>
 
               <div className="flex items-center gap-3">
-                <img
-                  className="cursor-pointer"
-                  src="/src/assets/images/avatars/Leslie.png"
-                />
+                <img className="cursor-pointer" src={leslie} />
                 <ArrowDown className="cursor-pointer" />
               </div>
             </div>
@@ -121,7 +129,7 @@ const Nav = () => {
       <div className="md:hidden flex items-center justify-between gap-[100px] px-[32px] py-[16px] w-screen">
         <div className="flex items-center gap-[11px]">
           <ManuBar />
-          <img src="/src/assets/images/avatars/Leslie.png" />
+          <img src={leslie} />
         </div>
         <div className="flex items-center gap-[19px]">
           <button className="bg-[#6151FF] text-white border border-transparent rounded-[5000px] py-[6px] px-[20px] flex justify-center items-center gap-[6px]">

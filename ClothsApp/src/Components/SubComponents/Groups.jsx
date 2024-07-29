@@ -1,4 +1,7 @@
 import { GoneMemb, GthreeMemb, GtwoMemb } from "../../../util/logo";
+import family from "../../assets/Images/Avatars/family-discussion.png";
+import friends from "../../assets/Images/Avatars/Friends.png";
+import business from "../../assets/Images/Avatars/business-chat.png";
 const Groups = () => {
   return (
     <>
@@ -7,10 +10,7 @@ const Groups = () => {
           Group Chat
         </p>
         <div className="flex gap-4  lg:ml-[19px] md:ml-0 mb-[20px]  lg:max-w-fit">
-          <img
-            className="max-w-[44px] max-h-[44px] "
-            src="/src/assets/images/avatars/family-discussion.png"
-          />
+          <img className="max-w-[44px] max-h-[44px] " src={family} />
           <div>
             <p className="font-normal lg:text-[14px] md:text-[12px]  leading-5 mb-[2px]">
               Family Discussion
@@ -19,10 +19,7 @@ const Groups = () => {
           </div>
         </div>
         <div className="flex gap-4  lg:ml-[19px] md:ml-0 mb-[20px]  lg:max-w-fit">
-          <img
-            className="max-w-[44px] max-h-[44px] "
-            src="/src/assets/images/avatars/friends.png"
-          />
+          <img className="max-w-[44px] max-h-[44px] " src={friends} />
           <div>
             <p className="font-normal lg:text-[14px] md:text-[12px] leading-5 mb-[2px]">
               Friends
@@ -31,10 +28,7 @@ const Groups = () => {
           </div>
         </div>
         <div className="flex gap-4  lg:ml-[19px] md:ml-0 mb-[20px]  lg:max-w-fit">
-          <img
-            className="max-w-[44px] max-h-[44px] "
-            src="/src/assets/images/avatars/business-chat.png"
-          />
+          <img className="max-w-[44px] max-h-[44px] " src={business} />
           <div>
             <p className="font-normal lg:text-[14px] md:text-[12px] leading-5 mb-[2px]">
               Business Chat

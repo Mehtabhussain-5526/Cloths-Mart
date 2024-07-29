@@ -1,66 +1,72 @@
 import { AddBtn } from "../../../util/logo";
 
+import woman1 from "../../assets/Images/Models/Women/woman1.png";
+import woman2 from "../../assets/Images/Models/Women/woman2.png";
+import woman3 from "../../assets/Images/Models/Women/woman3.png";
+import woman4 from "../../assets/Images/Models/Women/woman4.png";
+import sapphire from "../../assets/Images/brands-logo/sapphire-rounded.svg";
+
 const GridSection = () => {
   const collection = [
     {
-      url: "/src/assets/images/models/women/woman1.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman1,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman2.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman2,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman3.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman3,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman4.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman4,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman1.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman1,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman2.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman2,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman3.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman3,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman4.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman4,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",

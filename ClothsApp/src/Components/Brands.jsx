@@ -3,7 +3,16 @@ import LeftAside from "./LeftAside";
 import { useState } from "react";
 import BrandGridSection from "./SubComponents/BrandGridSection";
 import { SearchIcon } from "../../util/logo";
-
+import gulahmed from "../assets/Images/brands-logo/gulahmed-rounded.svg";
+import gulahmedsquare from "../assets/Images/brands-logo/gulahmed.svg";
+import jdot from "../assets/Images/brands-logo/j-dot-rounded.svg";
+import sapphire from "../assets/Images/brands-logo/sapphire-rounded.svg";
+import gap from "../assets/Images/brands-logo/gap-rounded.svg";
+import ego from "../assets/Images/brands-logo/ego-rounded.svg";
+import khadi from "../assets/Images/brands-logo/khadi-rounded.svg";
+import alkaram from "../assets/Images/brands-logo/alkaram-rounded.svg";
+import almirah from "../assets/Images/brands-logo/almirah-rounded.svg";
+import khadibannar from "../assets/Images/Banners/khadi-banner.png";
 const Brands = () => {
   const [clickEl, SetClickEl] = useState("");
   const handleClick = (e) => {
@@ -11,28 +20,28 @@ const Brands = () => {
   };
   const logos = [
     {
-      url: "/src/assets/images/brands-logo/gulahmed-rounded.svg",
+      url: gulahmed,
     },
     {
-      url: "/src/assets/images/brands-logo/j-dot-rounded.svg",
+      url: jdot,
     },
     {
-      url: "/src/assets/images/brands-logo/khadi-rounded.svg",
+      url: khadi,
     },
     {
-      url: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: sapphire,
     },
     {
-      url: "/src/assets/images/brands-logo/gap-rounded.svg",
+      url: gap,
     },
     {
-      url: "/src/assets/images/brands-logo/alkaram-rounded.svg",
+      url: alkaram,
     },
     {
-      url: "/src/assets/images/brands-logo/ego-rounded.svg",
+      url: ego,
     },
     {
-      url: "/src/assets/images/brands-logo/almirah-rounded.svg",
+      url: almirah,
     },
   ];
   return (
@@ -69,15 +78,12 @@ const Brands = () => {
             {/* Recomendation Banners */}
             <div className="lg:mt-[49px] max-w-[1060px] md:mt-[30px]">
               <div className="z-[-1]">
-                <img src="/src/assets/images/banners/Khadi-banner.png" />
+                <img src={khadibannar} />
               </div>
               <div className="xxl:max-h-[130px] lg:flex justify-between xl:gap-[20px] xl:min-h-[130px] md:flex-none-none ">
                 <div className="flex sm:gap-[40px] mb:gap-[14px] items-center">
                   <div className="sm:ml-[43px] w-full xxl:max-h-[160px] xxl:max-w-[160px] xl:max-w-[130px] xl:max-h-[130px] xxl:mt-[-40px]  xl:mt-[-60px] md:max-w-[100px] md:max-h-[100px] lg:mt-[-55px] md:mt-[-25px] mb:max-w-[100px] mb:mt-[-20px] mb:ml-[30px] ">
-                    <img
-                      src="/src/assets/images/brands-logo/gulahmed.svg"
-                      className=""
-                    />
+                    <img src={gulahmedsquare} className="" />
                   </div>
                   <div className=" max-h-[50px] max-w-[400px] items-center">
                     <p className=" xxl:text-[32px] font-bold leading-6 tracking-tighter pb-[19px] xl:text-[25px] lg:text-[20px] mb:pb-[12px]">
