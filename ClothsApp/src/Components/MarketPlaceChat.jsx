@@ -339,7 +339,7 @@ const MarketPlaceChat = () => {
               </div>
               {/* khaadi post */}
               <div className="bg-white lg:pt-[32px] mb:pt-[20px] px-[25px] bordeer border-transparent rounded-md md:mt-[20px] mb:mt-6 md:mx-0 mb:mx-5">
-                <div className="flex justify-between lg:mb-[35px] sm:pb-5 mb:pb-[17px]">
+                <div className="flex justify-between lg:mb-[35px] lg:pb-0 sm:pb-5 mb:pb-[17px]">
                   <div className="flex lg:max-w-[280px] mb:gap-[13px] items-center ">
                     <div className="">
                       <img className="md:w-auto mb:w-[34px]" src={lindsay65} />
