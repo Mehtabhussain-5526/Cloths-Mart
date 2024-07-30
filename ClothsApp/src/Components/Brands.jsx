@@ -46,20 +46,20 @@ const Brands = () => {
   ];
   return (
     <>
-      <div className="flex bg-[#F9FBFF]">
+      <div className="flex overflow-x-hidden bg-[#F9FBFF]">
         <LeftAside />
         {/* main body */}
-        <div className="max-w-[1200px] w-[100%] border border-r-0">
+        <div className="xl:max-w-[1200px] xl:w-full lg:min-w-[800px] lg:w-full md:min-w-[568px] md:w-full border-l-[1px]">
           <Nav />
           {/* divs after nav compnents */}
-          <div className="border border-t-[1px] border-r-0 border-l-0 border-b-0 xxl:pl-[80px] xl:pl-[40px] xl:pr-[40px] lg:pt-[47px] lg:pb-[100px] md:pr-[20px] md:pl-[20px] md:pt-[20px]">
+          <div className="border border-t-[1px] border-r-0 border-l-0 border-b-0 xxl:pl-[80px] xl:pl-[40px] xl:pr-[40px] lg:pt-[48px] lg:pb-[100px] md:pr-[20px] md:pl-[20px] md:pt-[20px]">
             {/* title and brands logos */}
             <div className="flex items-center justify-between lg:gap-0 md:gap-5">
               <div className="lg:w-fit md:w-fit sm:block mb:hidden md:pl-0 sm:pl-7">
                 <p className="xxl:text-[24px] text-[#808191] font-normal leading-6 tracking-tighter sm:text-[20px] mb-2">
                   Salesbag
                 </p>
-                <p className="xxl:text-[48px] font-semibold leading-[56px]  tracking-tighter xl:text-[35px] lg:text-[30px] lg:leading-[48px] sm:text-[30px] md:leading-[30px]">
+                <p className="xxl:text-[48px] font-semibold xl:leading-[56px]  tracking-tighter xl:text-[35px] lg:text-[30px] lg:leading-[48px] sm:text-[30px] md:leading-[30px]">
                   Brands
                 </p>
               </div>
@@ -187,7 +187,7 @@ const Brands = () => {
             <div className="md:px-0 mb:px-5">
               <BrandGridSection />
             </div>
-            <div className="text-center mt-[55px] max-w-[1045px]">
+            <div className="text-center mt-[55px] max-w-[1045px] mb:hidden sm:block">
               <button className="  text-white bg-[#6151FF] text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter xl:mb-[74px] lg:mb-[0px]">
                 Load More
               </button>

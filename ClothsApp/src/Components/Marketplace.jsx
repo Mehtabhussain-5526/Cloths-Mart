@@ -95,11 +95,11 @@ const Marketplace = () => {
   ];
   return (
     <>
-      <div className="flex bg-[#F9FBFF]">
+      <div className="flex overflow-x-hidden bg-[#F9FBFF]">
         <LeftAside />
         <div className="xl:max-w-[1200px] xl:w-full lg:min-w-[800px] lg:w-full md:min-w-[568px] md:w-full border-l-[1px]">
           <Nav />
-          <div className="xl:pl-[80px] xl:pt-[47px] xl:max-w-[1200px] lg:w-full  md:pl-[20px] md:pr-[20px]  border-t-[1px] ">
+          <div className="xl:pl-[80px] lg:pt-[48px] xl:max-w-[1200px] lg:w-full  md:pl-[20px] md:pr-[20px] md:pt-[20px] border-t-[1px] ">
             <div className=" xl:mb-[47px] lg:max-w-fit md:pl-0 sm:pl-5">
               <p className=" text-[#808191] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[0px] lg:font-normal lg:leading-6 lg:max-w-fit sm:text-[20px] sm:mt-[20px] sm:font-normal sm:leading-6 sm:tracking-tighter sm:max-w-fit sm:block mb:hidden mb-[8px]">
                 Salesbag
@@ -155,7 +155,7 @@ const Marketplace = () => {
                     key={index}
                   >
                     <img
-                      className="xl:mb-[21px] lg:mb-[16px] lg:min-w-[156px]"
+                      className="xl:mb-[21px] lg:mb-[16px] lg:min-w-[156px] mb:min-w-[171px] mb:min-h-[228px]"
                       src={data.url}
                     />
                     <div className="flex">
@@ -198,7 +198,7 @@ const Marketplace = () => {
                     key={index}
                   >
                     <img
-                      className="xl:mb-[21px] lg:mb-[16px] lg:min-w-[156px]"
+                      className="xl:mb-[21px] lg:mb-[16px] lg:min-w-[156px] mb:min-w-[171px] mb:min-h-[228px]"
                       src={data.url}
                     />
                     <div className="flex">
@@ -275,7 +275,7 @@ const Marketplace = () => {
             {/* End of Active bar */}
             <div className="xxl:pr-[40px] xl:pr-[30px] mb:pr-[20px] md:pl-0 mb:pl-5 md:mt-0 mb:mt-[40px]">
               <GridSection />
-              <div className="text-center mt-[55px] max-w-[1045px]">
+              <div className="text-center mt-[55px] max-w-[1045px] mb:hidden sm:block">
                 <button className="  text-white bg-[#6151FF] xl:text-[20px] font-semibold max-h-[56px] max-w-[163px] rounded-md pt-[14px] pb-[16px] pl-[32px] pr-[32px] tracking-tighter mb-[74px]">
                   Load More
                 </button>

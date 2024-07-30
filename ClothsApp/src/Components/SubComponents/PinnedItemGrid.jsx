@@ -101,7 +101,7 @@ const PinnedItemGrid = () => {
                 </div>
               </div>
               <div className=" lg:flex-none lg:py-0 lg:max-w-none lg:w-fit mb:flex mb:justify-between mb:items-center  mb:py-[10px] ">
-                <p className="xl:text-[14px] lg:text-[10px] lg:font-semibold lg:leading-5 lg:tracking-tighter md:text-[14px] mb:text-[12px] mb:font-semibold mb:leading-5">
+                <p className="xxl:text-[14px] xl:text-[12px] lg:text-[10px] lg:font-semibold lg:leading-5 lg:tracking-tighter md:text-[14px] mb:text-[12px] mb:font-semibold mb:leading-5">
                   {data.price}
                 </p>
                 <AddBtn className="absolute right-[10px] lg:hidden" />

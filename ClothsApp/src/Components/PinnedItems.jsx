@@ -15,19 +15,17 @@ const PinnedItems = () => {
   };
   return (
     <>
-      <div className="flex bg-[#F9FBFF]">
-        <div className="">
+      <div className="flex overflow-x-hidden bg-[#F9FBFF]">
           <LefttAside />
-        </div>
         {/* main body */}
-        <div className="max-w-[1200px] w-[100%] border border-t-transparent border-b-transparent border-r-transparent">
+        <div className=" xl:max-w-[1200px] xl:w-full lg:min-w-[800px] lg:w-full md:min-w-[568px] md:w-full border-l-[1px]">
           <Nav />
 
           {/* divs after nav compnents */}
-          <div className="border border-r-transparent border-b-transparent border-l-transparent xxl:pl-[80px] xl:pt-[47px] pb-[100px] md:px-[20px] xl:pl-[40px] xl:pr-[98px] md:pt-[20px]  mb:px-[20px]">
+          <div className="border border-r-transparent border-b-transparent border-l-transparent xxl:pl-[80px] lg:pt-[48px] pb-[100px] md:px-[20px] xl:pl-[40px] xl:pr-[80px] md:pt-[20px]  mb:px-[20px]">
             {/* title and selction btn */}
             <div className="md:block mb:hidden">
-              <div className="flex justify-between items-center mb-[50px] max-w-[1058px]">
+              <div className="flex justify-between items-center mb-[50px] ">
                 <div className="">
                   <p className=" text-[#808191] mb-[8px] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[0px] lg:font-normal lg:leading-6 lg:tracking-tighter lg:max-w-fit md:text-[20px]  md:font-normal md:leading-6 md:tracking-tighter md:max-w-fit">
                     Salesbag

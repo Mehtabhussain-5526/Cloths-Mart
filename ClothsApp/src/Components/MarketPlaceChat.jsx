@@ -33,7 +33,7 @@ import zararounded from "../assets/Images/Avatars/zara-rounded.png";
 const MarketPlaceChat = () => {
   return (
     <>
-      <div className="flex bg-[#F9FBFF]">
+      <div className="flex overflow-x-hidden bg-[#F9FBFF]">
         <LeftAside />
         {/* main body */}
         <div className="xxl:max-w-[1200px] w-[100%] border border-t-0 border-r-0  md:min-w-[570px]">

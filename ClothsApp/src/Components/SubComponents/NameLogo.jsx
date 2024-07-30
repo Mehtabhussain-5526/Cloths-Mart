@@ -5,7 +5,7 @@ const NameLogo = () => {
   return (
     <>
       <Link to="/">
-        <div className="flex gap-[13px] items-center font-light md:max-w-fit md:mt-[6px] lg:ml-[40px] md:ml-[10px] cursor-pointer">
+        <div className="flex gap-[13px] items-center font-light md:max-w-fit md:mt-[6px] xl:ml-[40px] md:ml-[10px] cursor-pointer">
           <Logo className="cursor-pointer" />
           <p className="text-[24px] leading-[24px] cursor-pointer">
             <strong className="font-black">Sale</strong>
