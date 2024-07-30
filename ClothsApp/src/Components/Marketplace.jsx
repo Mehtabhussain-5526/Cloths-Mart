@@ -3,6 +3,22 @@ import Nav from "./SubComponents/Nav";
 import { AddBtn, Showing, SliderArrow } from "../../util/logo";
 import LeftAside from "./LeftAside";
 import GridSection from "./SubComponents/GridSection";
+import woman1 from "../assets/Images/Models/Women/woman1.png";
+import woman2 from "../assets/Images/Models/Women/woman2.png";
+import woman3 from "../assets/Images/Models/Women/woman3.png";
+import man4 from "../assets/Images/Models/Men/man4.png";
+import man1 from "../assets/Images/Models/Men/man1.png";
+import man2 from "../assets/Images/Models/Men/man2.png";
+import man3 from "../assets/Images/Models/Men/man3.png";
+import woman4 from "../assets/Images/Models/Women/woman4.png";
+import sapphire from "../assets/Images/brands-logo/sapphire-rounded.svg";
+import khadi from "../assets/Images/brands-logo/khadi-rounded.svg";
+import alkaram from "../assets/Images/brands-logo/alkaram-rounded.svg";
+import ideasbannergreen from "../assets/Images/Banners/ideas-banner-green.png";
+import ideasbannerpurple from "../assets/Images/Banners/ideas-banner-purple.png";
+import yellowvertical from "../assets/Images/Banners/yellow-vertical-home.png";
+import ideasvertical from "../assets/Images/Banners/ideas-vertical-home.png";
+import ideasgreenvertical from "../assets/Images/Banners/ideas-green-vertical-home.png";
 
 const Marketplace = () => {
   const [hoverEl, SetHoverEl] = useState("");
@@ -11,32 +27,32 @@ const Marketplace = () => {
   };
   const trending = [
     {
-      url: "/src/assets/images/models/women/woman1.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman1,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman2.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman2,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman3.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman3,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/women/woman4.png",
-      logo: "/src/assets/images/brands-logo/sapphire-rounded.svg",
+      url: woman4,
+      logo: sapphire,
       brand: "Sapphire",
       type: "Unstiched",
       price: "PKR 3000",
@@ -45,32 +61,32 @@ const Marketplace = () => {
   ];
   const trendingmen = [
     {
-      url: "/src/assets/images/models/men/man1.png",
-      logo: "/src/assets/images/brands-logo/alkaram-rounded.svg",
+      url: man1,
+      logo: alkaram,
       brand: "Al Karam",
       type: "Unstiched",
       price: "PKR 3600",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/men/man2.png",
-      logo: "/src/assets/images/brands-logo/alkaram-rounded.svg",
+      url: man2,
+      logo: alkaram,
       brand: "Al Karam",
       type: "Unstiched",
       price: "PKR 4999",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/men/man3.png",
-      logo: "/src/assets/images/brands-logo/khadi-rounded.svg",
+      url: man3,
+      logo: khadi,
       brand: "Khaadi",
       type: "Unstiched",
       price: "PKR 12,600",
       liked: "",
     },
     {
-      url: "/src/assets/images/models/men/man4.png",
-      logo: "/src/assets/images/brands-logo/khadi-rounded.svg",
+      url: man4,
+      logo: khadi,
       brand: "Khaadi",
       type: "Unstiched",
       price: "PKR 12,600",
@@ -95,30 +111,30 @@ const Marketplace = () => {
             <div className="mb:relative flex overflow overflow-x-hidden xl:gap-[30px] mb:gap-[14px] mb:mt-5 md:mt-0 mb:min-h-[180px] md:pl-0 mb:pl-5">
               <img
                 className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl"
-                src="/src/assets/images/banners/ideas-banner-purple.png"
+                src={ideasbannerpurple}
               />
               {/* mobile dev img */}
               <img
                 className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
-                src="/src/assets/images/banners/ideas-vertical.png"
+                src={ideasvertical}
               />
               <img
                 className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl"
-                src="/src/assets/images/banners/ideas-banner-green.png"
+                src={ideasbannergreen}
               />
               {/* mobile dev img */}
               <img
                 className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
-                src="/src/assets/images/banners/ideas-green-vertical-home.png"
+                src={ideasgreenvertical}
               />
               <img
                 className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl "
-                src="/src/assets/images/banners/ideas-banner-purple.png"
+                src={ideasbannerpurple}
               />
               {/* mobile dev img */}
               <img
                 className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
-                src="/src/assets/images/banners/yellow-vertical-home.png"
+                src={yellowvertical}
               />
               <div className="mb:absolute bg-white h-[24px] w-[24px] border border-transparent rounded-full flex justify-center items-center right-0 top-[45%]">
                 <SliderArrow />

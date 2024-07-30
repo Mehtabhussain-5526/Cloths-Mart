@@ -14,6 +14,21 @@ import {
 } from "../../util/logo";
 import LeftAside from "./LeftAside";
 import RightAside from "./SubComponents/RightAside";
+import leslie from "../assets/Images/Avatars/Leslie.png";
+import dries from "../assets/Images/Avatars/Dries.png";
+import lindsay65 from "../assets/Images/Avatars/lindsay-65-65.png";
+import woman19 from "../assets/Images/Models/Women/woman19.png";
+import woman20 from "../assets/Images/Models/Women/woman20.png";
+import woman21 from "../assets/Images/Models/Women/woman21.png";
+import woman22 from "../assets/Images/Models/Women/woman22.png";
+import woman23 from "../assets/Images/Models/Women/woman23.png";
+import womanunderviewallbtn from "../assets/Images/Models/Women/woman-under-view-all-btn.png";
+import transp from "../assets/Images/Models/Women/transp.png";
+import congrats from "../assets/Emoji/Congrats.png";
+import clothingbrand from "../assets/Images/Avatars/clothing-brand.png";
+import banner1 from "../assets/Images/Banners/banner1.png";
+import banner2 from "../assets/Images/Banners/banner2.png";
+import zararounded from "../assets/Images/Avatars/zara-rounded.png";
 
 const MarketPlaceChat = () => {
   return (
@@ -33,7 +48,7 @@ const MarketPlaceChat = () => {
                 <div className=" flex sm:gap-[22px] justify-between items-center md:mx-0 md:mt-0 sm:mt-5 sm:mx-5">
                   <img
                     className="sm:max-w-[44px] sm:max-h-[44px]"
-                    src="/src/assets/images/avatars/leslie.png"
+                    src={leslie}
                   />
                   <input
                     className="bg-[#F0F0F0] border border-transparent rounded-md lg:pl-[27px] sm:pl-[27px] lg:pb-[18px] lg:pt-[20px] sm:py-[15px] w-full outline-none"
@@ -54,7 +69,7 @@ const MarketPlaceChat = () => {
                     <div className="sm:max-w-[65px] mb:max-w-[34px]">
                       <img
                         className="xxl:max-h-[65px] xxl:max-w-[65px] lg:max-w-[50px] xl:max-w-[57px]"
-                        src="/src/assets/images/avatars/lindsay-65-65.png"
+                        src={lindsay65}
                       />
                     </div>
                     <div>
@@ -98,24 +113,21 @@ const MarketPlaceChat = () => {
                   <div className="">
                     <img
                       className="border border-transparent rounded-lg"
-                      src="/src/assets/images/models/women/woman19.png"
+                      src={woman19}
                     />
                   </div>
 
                   <div className="">
                     <img
                       className="sm:mb-[20px] mb:mb:mb-[10px] border border-transparent rounded-lg"
-                      src="/src/assets/images/models/women/woman20.png"
+                      src={woman20}
                     />
                     <div className="relative">
                       <img
                         className="border border-transparent rounded-lg"
-                        src="/src/assets/images/models/women/woman-under-view-all-btn.png"
+                        src={womanunderviewallbtn}
                       />
-                      <img
-                        className="absolute top-0"
-                        src="/src/assets/images/models/women/transp.png"
-                      />
+                      <img className="absolute top-0" src={transp} />
                       <div className="text-center absolute mx-auto my-auto top-[45%] right-[45%] sm:block mb:hidden">
                         <button className="text-white font-medium leading-6 text-[14px] cursor-pointer">
                           View all
@@ -188,7 +200,7 @@ const MarketPlaceChat = () => {
                   <div className="flex sm:gap-[15px] xxl:mr-0 ">
                     <img
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
-                      src="/src/assets/images/avatars/dries.png"
+                      src={dries}
                     />
                     <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
@@ -219,7 +231,7 @@ const MarketPlaceChat = () => {
                   <div className="lg:ml-[60px] md:ml-[25px] flex sm:gap-[15px]">
                     <img
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
-                      src="/src/assets/images/avatars/dries.png"
+                      src={dries}
                     />
                     <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
@@ -246,7 +258,7 @@ const MarketPlaceChat = () => {
                   <div className="lg:ml-[60px] md:ml-[25px] flex sm:gap-[15px]">
                     <img
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
-                      src="/src/assets/images/avatars/dries.png"
+                      src={dries}
                     />
                     <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                       <div className="">
@@ -273,7 +285,7 @@ const MarketPlaceChat = () => {
                   <div className="lg:ml-[60px] md:ml-[25px] flex xxl:max-w-[824px] sm:gap-[15px]">
                     <img
                       className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
-                      src="/src/assets/images/avatars/dries.png"
+                      src={dries}
                     />
                     <div className="flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:pt-[18px] pr-[35px] pl-[25px] justify-between">
                       <div className="">
@@ -281,7 +293,7 @@ const MarketPlaceChat = () => {
                           Frances Guerrero
                         </p>
                         <p className="xxl:max-w-[580px]">Congratulations</p>
-                        <img src="/src/assets/Emoji/congrats.png" />
+                        <img src={congrats} />
                       </div>
                     </div>
                   </div>
@@ -298,7 +310,7 @@ const MarketPlaceChat = () => {
                     <div className="">
                       <img
                         className="md:w-auto mb:w-[34px]"
-                        src="/src/assets/images/avatars/clothing-brand.png"
+                        src={clothingbrand}
                       />
                     </div>
                     <div>
@@ -317,7 +329,7 @@ const MarketPlaceChat = () => {
                     </div>
                   </div>
                 </div>
-                <img src="/src/assets/images/banners/banner1.png" />
+                <img src={banner1} />
                 <p className="text-[#878787] pl-[30px] md:mt-[20px] md:leading-6 mb:mt-4 md:mb-[5px] md:text-[16px] mb:text-[10px] mb:leading-3">
                   Clothing Store
                 </p>
@@ -330,10 +342,7 @@ const MarketPlaceChat = () => {
                 <div className="flex justify-between lg:mb-[35px] sm:pb-5 mb:pb-[17px]">
                   <div className="flex lg:max-w-[280px] mb:gap-[13px] items-center ">
                     <div className="">
-                      <img
-                        className="md:w-auto mb:w-[34px]"
-                        src="/src/assets/images/avatars/lindsay-65-65.png"
-                      />
+                      <img className="md:w-auto mb:w-[34px]" src={lindsay65} />
                     </div>
                     <div>
                       <p className="text-[#878787] md:leading-5 font-normal lg:mb-[3px] md:text-[16px] mb:text-[10px] mb:leading-3 mb:mb-[2.28px]">
@@ -375,7 +384,7 @@ const MarketPlaceChat = () => {
                 <div className="flex xxl:gap-[20px]">
                   <img
                     className="border border-transparent rounded-xl"
-                    src="/src/assets/images/banners/banner2.png"
+                    src={banner2}
                   />
                 </div>
                 {/* like comment share bar hidden for 640 and above */}
@@ -439,10 +448,7 @@ const MarketPlaceChat = () => {
                 {/* hidden for 420px */}
                 <div className="sm:block mb:hidden">
                   <div className="flex gap-[15px] items-center">
-                    <img
-                      className="max-w-[44px] max-h-[44px]"
-                      src="/src/assets/images/avatars/leslie.png"
-                    />
+                    <img className="max-w-[44px] max-h-[44px]" src={leslie} />
                     <div className="relative max-w-[1440px] w-full">
                       <input
                         className="bg-[#F0F0F0] border max-w-[1440px] w-full border-transparent rounded-md sm:pl-[25px] lg:py-[18px] sm:py-[15px] outline-none"
@@ -460,7 +466,7 @@ const MarketPlaceChat = () => {
                     <div className="flex sm:gap-[15px] xxl:mr-0 ">
                       <img
                         className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
-                        src="/src/assets/images/avatars/dries.png"
+                        src={dries}
                       />
                       <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                         <div className="">
@@ -493,7 +499,7 @@ const MarketPlaceChat = () => {
                     <div className="lg:ml-[60px] md:ml-[25px] flex sm:gap-[15px]">
                       <img
                         className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
-                        src="/src/assets/images/avatars/dries.png"
+                        src={dries}
                       />
                       <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                         <div className="">
@@ -522,7 +528,7 @@ const MarketPlaceChat = () => {
                     <div className="lg:ml-[60px] md:ml-[25px] flex sm:gap-[15px]">
                       <img
                         className="sm:max-h-[44px] sm:max-w-[44px] mt-[10px] "
-                        src="/src/assets/images/avatars/dries.png"
+                        src={dries}
                       />
                       <div className=" flex border border-transparent rounded-md bg-[#F0F0F0]  lg:pt-[26px] lg:pl-[27px] sm:py-[15px] pr-[25px] pl-[25px] lg:min-w-[567px] lg:w-full justify-between">
                         <div className="">
@@ -561,10 +567,7 @@ const MarketPlaceChat = () => {
                 <div className="flex justify-between px-[25px] mb-[20px]">
                   <div className="flex max-w-[280px] gap-[13px] items-center">
                     <div className="">
-                      <img
-                        className=""
-                        src="/src/assets/images/avatars/zara-rounded.png"
-                      />
+                      <img className="" src={zararounded} />
                     </div>
                     <div>
                       <p className="text-[#878787] leading-5 font-normal mb-[3px]">
@@ -583,10 +586,7 @@ const MarketPlaceChat = () => {
                 <div className="pb-[39px] ">
                   <div className="md:flex lg:flex-nowrap sm:gap-[13px]  sm:flex sm:justify-between">
                     <div className=" sm:pt-[15px] sm:pl-[15px] sm:pr-[15px] sm:pb-[25px] sm:min-w-auto">
-                      <img
-                        className=""
-                        src="/src/assets/images/models/women/woman21.png"
-                      />
+                      <img className="" src={woman21} />
                       <div className="lg:flex mt-[20px] sm:gap-[19px] ">
                         <p className="font-semibold text-[14px] leading-5">
                           Needle Craft Embroidered Shirt WGK-KDW
@@ -597,10 +597,7 @@ const MarketPlaceChat = () => {
                       </div>
                     </div>
                     <div className=" sm:pt-[15px] sm:pl-[15px] sm:pr-[15px] sm:pb-[25px] sm:min-w-auto">
-                      <img
-                        className=""
-                        src="/src/assets/images/models/women/woman22.png"
-                      />
+                      <img className="" src={woman22} />
                       <div className="lg:flex mt-[20px] sm:gap-[19px] ">
                         <p className="font-semibold text-[14px] leading-5">
                           Needle Craft Embroidered Shirt WGK-KDW
@@ -611,10 +608,7 @@ const MarketPlaceChat = () => {
                       </div>
                     </div>
                     <div className=" sm:pt-[15px] sm:pl-[15px] sm:pr-[15px] sm:pb-[25px] sm:min-w-auto">
-                      <img
-                        className=""
-                        src="/src/assets/images/models/women/woman23.png"
-                      />
+                      <img className="" src={woman23} />
                       <div className="lg:flex mt-[20px] sm:gap-[19px] ">
                         <p className="font-semibold text-[14px] leading-5">
                           Needle Craft Embroidered Shirt WGK-KDW
