@@ -101,7 +101,7 @@ const Marketplace = () => {
           <Nav />
           <div className="xl:pl-[80px] xl:pt-[47px] xl:max-w-[1200px] lg:w-full  md:pl-[20px] md:pr-[20px]  border-t-[1px] ">
             <div className=" xl:mb-[47px] lg:max-w-fit md:pl-0 sm:pl-5">
-              <p className=" text-[#808191] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[40px] lg:font-normal lg:leading-6 lg:max-w-fit sm:text-[20px] sm:mt-[20px] sm:font-normal sm:leading-6 sm:tracking-tighter sm:max-w-fit sm:block mb:hidden mb-[8px]">
+              <p className=" text-[#808191] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[0px] lg:font-normal lg:leading-6 lg:max-w-fit sm:text-[20px] sm:mt-[20px] sm:font-normal sm:leading-6 sm:tracking-tighter sm:max-w-fit sm:block mb:hidden mb-[8px]">
                 Salesbag
               </p>
               <p className="xl:text-[48px] xl:font-semibold lg:mb-[50px] lg:text-[35px] lg:font-semibold lg:leading-[56px] lg:max-w-fit md:mb-[20px] sm:text-[30px] sm:font-semibold sm:leading-[30px] sm:tracking-tighter sm:max-w-fit sm:block mb:hidden">

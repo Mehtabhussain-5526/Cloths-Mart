@@ -24,7 +24,7 @@ const PinnedItems = () => {
           <Nav />
 
           {/* divs after nav compnents */}
-          <div className="border border-r-transparent border-b-transparent border-l-transparent pl-[80px] xl:pt-[47px] pb-[100px] md:px-[20px] xl:pl-[40px] xl:pr-[98px] md:pt-[20px]  mb:px-[20px]">
+          <div className="border border-r-transparent border-b-transparent border-l-transparent xxl:pl-[80px] xl:pt-[47px] pb-[100px] md:px-[20px] xl:pl-[40px] xl:pr-[98px] md:pt-[20px]  mb:px-[20px]">
             {/* title and selction btn */}
             <div className="md:block mb:hidden">
               <div className="flex justify-between items-center mb-[50px] max-w-[1058px]">
