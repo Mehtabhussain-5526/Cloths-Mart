@@ -136,7 +136,7 @@ const Marketplace = () => {
                 className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
                 src={yellowvertical}
               />
-              <div className="mb:absolute bg-white h-[24px] w-[24px] border border-transparent rounded-full flex justify-center items-center right-0 top-[45%]">
+              <div className="mb:absolute bg-white h-[24px] w-[24px] border border-transparent rounded-full flex justify-center items-center right-[10px] top-[45%]">
                 <SliderArrow />
               </div>
             </div>
@@ -160,7 +160,7 @@ const Marketplace = () => {
                     />
                     <div className="flex">
                       <div className=" xl:flex xl:justify-between xl:max-w-[240px] xl:w-full xl:items-center lg:flex lg:justify-between lg:max-w-[210px] lg:w-full lg:items-center">
-                        <div className="flex items-center justify-center lg:gap-2 lg:border-none lg:static mb:bg-white mb:pl-[6px] mb:pr-[8px] mb:py-[3px] mb:border mb:border-transparent mb:rounded-[500px]  mb:absolute  sm:top-[25px] sm:left-[25px] mb:top-4 mb:left-4 mb:gap-[5px]">
+                        <div className="flex items-center justify-center lg:gap-2 lg:border-none lg:static mb:bg-white mb:pl-[6px] mb:pr-[8px] mb:py-[3px] mb:border mb:border-transparent mb:rounded-[500px] mb:absolute sm:top-[25px] sm:left-[25px] mb:top-4 mb:left-4 mb:gap-[5px]">
                           <img
                             className="lg:h-[40px] lg:w-[40px] border rounded-full mb:w-[24px] mb:h-[24px] "
                             src={data.logo}

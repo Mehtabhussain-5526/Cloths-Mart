@@ -893,3 +893,187 @@ export const ShareArrowIcon = (props) => (
     />
   </svg>
 );
+
+export const DualMsgIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={20}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M4.71 11.5 1 14.5v-12a.75.75 0 0 1 .75-.75h12a.75.75 0 0 1 .75.75v8.25a.75.75 0 0 1-.75.75H4.71Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M5.5 11.5v3.75a.75.75 0 0 0 .75.75h9.04L19 19V7a.75.75 0 0 0-.75-.75H14.5"
+    />
+  </svg>
+)
+
+export const DualMsgIcon32 = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={26}
+    height={25}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M5.948 14 1 18V2a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H5.948Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M7 14v5a1 1 0 0 0 1 1h12.052L25 24V8a1 1 0 0 0-1-1h-5"
+    />
+  </svg>
+)
+
+export const ProfileIconSimple = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={22}
+    height={20}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeMiterlimit={10}
+      strokeWidth={2}
+      d="M11 13a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M1.905 18.25a10.504 10.504 0 0 1 18.19 0"
+    />
+  </svg>
+)
+
+export const ProfileIcon32 = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={28}
+    height={25}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeMiterlimit={10}
+      strokeWidth={2}
+      d="M14 17a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M1.874 23.999a14.005 14.005 0 0 1 24.252 0"
+    />
+  </svg>
+)
+
+export const MegaPhone = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={21}
+    height={20}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#6151FF"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M12.25 5.5v11.599a.75.75 0 0 0 .334.624l1.03.687a.75.75 0 0 0 1.144-.442L16 13"
+    />
+    <path
+      stroke="#6151FF"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M16 13a3.75 3.75 0 0 0 0-7.5h-3.75s-5.105 0-10.017-4.12A.75.75 0 0 0 1 1.953v14.594a.75.75 0 0 0 1.233.573C7.145 13 12.25 13 12.25 13H16Z"
+    />
+  </svg>
+)
+
+export const ShirtIcon = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={32}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#6151FF"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M24 11h3.382a1 1 0 0 0 .894-.553l2.3-4.6a1 1 0 0 0-.397-1.316L24 1M8 11H4.618a1 1 0 0 1-.894-.553l-2.3-4.6A1 1 0 0 1 1.82 4.53L8 1M20 1a4 4 0 1 1-8 0H8v21a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V1h-4Z"
+    />
+  </svg>
+)
+
+export const BellBottomRounded = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={21}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M3.269 7.75A6.74 6.74 0 0 1 10.051 1c3.712.028 6.68 3.113 6.68 6.835V8.5c0 3.358.703 5.306 1.322 6.371A.75.75 0 0 1 17.408 16H2.592a.749.749 0 0 1-.645-1.13c.62-1.064 1.322-3.012 1.322-6.37v-.75Z"
+    />
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M7 16v.75a3 3 0 0 0 6 0V16"
+    />
+  </svg>
+)
+
+export const Bell32 = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={27}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#808191"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M3.025 10a8.987 8.987 0 0 1 9.044-9c4.948.037 8.907 4.15 8.907 9.113V11c0 4.477.936 7.075 1.761 8.495a1 1 0 0 1-.86 1.505H2.123a1 1 0 0 1-.86-1.506c.825-1.42 1.762-4.017 1.762-8.494v-1ZM8 21v1a4 4 0 1 0 8 0v-1"
+    />
+  </svg>
+)

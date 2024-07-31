@@ -17,6 +17,14 @@ import {
   GreenDot,
   NewsIcon,
   ChitChatIcon,
+  ProfileIconSimple,
+  DualMsgIcon,
+  BellBottomRounded,
+  ShirtIcon,
+  MegaPhone,
+  ProfileIcon32,
+  Bell32,
+  DualMsgIcon32,
 } from "../../../util/logo";
 import InviteBtn from "./InviteBtn";
 import { Link, useLocation } from "react-router-dom";
@@ -143,38 +151,48 @@ const Nav = () => {
           <SearchIcon />
         </div>
       </div>
-      <div className="md:hidden flex items-center justify-between px-[32px] py-[10px] w-screen border border-x-transparent ">
+      <div className="md:hidden flex items-center justify-between px-[32px] py-[10px] w-screen border border-x-transparent relative">
+        <div className="absolute border-t-2 border-[#6151FF] w-[84px] bottom-[-1.5px] left-0"></div>
         <Link to="/">
-          <div className=" w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]">
+          <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${(location.pathname == "/brands"  && "hidden")||(location.pathname == "/marketplacechat"  && "hidden")}`}>
             <CartIcon />
+          </div>
+          <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]
+            ${location.pathname !== "/brands" && "hidden"} && ${location.pathname == "/brands" && "p-0"} `}>
+            <ShirtIcon/>
+          </div>
+          <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${location.pathname !== "/marketplacechat"  && "hidden"}`}>
+            <MegaPhone/>
           </div>
         </Link>
         <Link to="/brands">
-          <div className=" w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]">
-            <PeopleIcon />
+          <div className={` w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${location.pathname == "/brands" && "hidden"}`}>
+          <ProfileIconSimple/>
           </div>
+            <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${location.pathname !== "/brands" && "hidden"}`}> <ProfileIcon32/> </div>
         </Link>
         <Link to="/pinneditems">
           <div
             className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${
-              location.pathname == "/brands" && "hidden"
-            }`}
+              location.pathname == "/brands" && "hidden "
+            } `}
           >
-            <ChatIcon />
+            <DualMsgIcon />
           </div>
           <div
             className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]
             ${location.pathname !== "/brands" && "hidden"}`}
           >
-            <ChitChatIcon />
+            <DualMsgIcon32/>
           </div>
         </Link>
         <Link to="/marketplacechat">
-          <div className=" w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]">
-            <Bell />
+          <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${location.pathname == "/brands" && "hidden"}`}>
+            <BellBottomRounded/>
           </div>
+          <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${location.pathname !== "/brands" && "hidden"}`}><Bell32/></div>
         </Link>
-        <Link className={`${location.pathname == "/brands" && "hidden"}`}>
+        <Link to="/pinneditems" className={`${location.pathname == "/brands" && "hidden"}`}>
           <div
             className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${
               location.pathname == "/brands" && "hidden"
