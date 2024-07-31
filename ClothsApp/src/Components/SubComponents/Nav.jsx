@@ -157,7 +157,7 @@ const Nav = () => {
           <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%] ${(location.pathname == "/brands"  && "hidden")||(location.pathname == "/marketplacechat"  && "hidden")}`}>
             <CartIcon />
           </div>
-          <div className={`w-[40px] h-[40px] p-[5px] flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]
+          <div className={`w-[40px] h-[40px]  flex items-center justify-center border border-transparent rounded-full hover:bg-[#6151FF] hover:bg-opacity-[7%]
             ${location.pathname !== "/brands" && "hidden"} && ${location.pathname == "/brands" && "p-0"} `}>
             <ShirtIcon/>
           </div>
