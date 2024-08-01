@@ -14,11 +14,8 @@ import woman4 from "../assets/Images/Models/Women/woman4.png";
 import sapphire from "../assets/Images/brands-logo/sapphire-rounded.svg";
 import khadi from "../assets/Images/brands-logo/khadi-rounded.svg";
 import alkaram from "../assets/Images/brands-logo/alkaram-rounded.svg";
-import ideasbannergreen from "../assets/Images/Banners/ideas-banner-green.png";
-import ideasbannerpurple from "../assets/Images/Banners/ideas-banner-purple.png";
-import yellowvertical from "../assets/Images/Banners/yellow-vertical-home.png";
-import ideasvertical from "../assets/Images/Banners/ideas-vertical-home.png";
-import ideasgreenvertical from "../assets/Images/Banners/ideas-green-vertical-home.png";
+import RecommendationBanners from "./SubComponents/RecommendationBanners";
+import RecommendationMb from "./SubComponents/RecommendationMb";
 
 const Marketplace = () => {
   const [hoverEl, SetHoverEl] = useState("");
@@ -104,45 +101,29 @@ const Marketplace = () => {
               <p className=" text-[#808191] xl:text-[24px] xl:font-normal xl:leading-6 xl:tracking-tighter lg:text-[20px] lg:mt-[0px] lg:font-normal lg:leading-6 lg:max-w-fit sm:text-[20px] sm:mt-[20px] sm:font-normal sm:leading-6 sm:tracking-tighter sm:max-w-fit sm:block mb:hidden mb-[8px]">
                 Salesbag
               </p>
-              <p className="xl:text-[48px] xl:font-semibold lg:mb-[50px] lg:text-[35px] lg:font-semibold lg:leading-[56px] lg:max-w-fit md:mb-[20px] sm:text-[30px] sm:font-semibold sm:leading-[30px] sm:tracking-tighter sm:max-w-fit sm:block mb:hidden">
+              <p className="xl:text-[48px] xl:font-semibold lg:mb-[50px] lg:text-[35px] lg:font-semibold lg:leading-[56px] lg:max-w-fit sm:mb-[20px] sm:text-[30px] sm:font-semibold sm:leading-[30px] sm:tracking-tighter sm:max-w-fit sm:block mb:hidden">
                 Market Place
               </p>
             </div>
-            <div className="mb:relative flex overflow overflow-x-hidden xl:gap-[30px] mb:gap-[14px] mb:mt-5 md:mt-0 mb:min-h-[180px] md:pl-0 mb:pl-5">
-              <img
-                className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl"
-                src={ideasbannerpurple}
-              />
-              {/* mobile dev img */}
-              <img
-                className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
-                src={ideasvertical}
-              />
-              <img
-                className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl"
-                src={ideasbannergreen}
-              />
-              {/* mobile dev img */}
-              <img
-                className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
-                src={ideasgreenvertical}
-              />
-              <img
-                className=" mb:hidden sm:block md:min-w-[480px] md:max-h-[300px] sm:max-h-[197px] xl:rounded border border-transparent rounded-2xl "
-                src={ideasbannerpurple}
-              />
-              {/* mobile dev img */}
-              <img
-                className=" mb:w-[120px] mb:max-h-[180px] border border-transparent sm:hidden rounded-2xl"
-                src={yellowvertical}
-              />
-              <div className="mb:absolute bg-white h-[24px] w-[24px] border border-transparent rounded-full flex justify-center items-center right-[10px] top-[45%]">
+
+            <div className="relative ">
+              <div className="mb:hidden md:min-w-[555px] md:block">
+                <RecommendationBanners />
+              </div>
+              <div className="pl-5 mt-5 md:hidden mb:block mb:w-screen">
+                <RecommendationMb />
+              </div>
+              <div className="mb:absolute sm:hidden bg-white h-[24px] w-[24px] border border-transparent rounded-full flex justify-center items-center right-[10px] top-[45%] z-10">
+                <SliderArrow />
+              </div>
+              <div className="mb:absolute sm:hidden bg-white h-[24px] w-[24px] border border-transparent rounded-full flex justify-center items-center left-[10px] top-[45%] rotate-180 z-10">
                 <SliderArrow />
               </div>
             </div>
-            <div className="xl:mt-[32px] ml-[41px] xl:mb-[50px] lg:mt-[32px] lg:mb-[50px] sm:mt-[20px] md:mb-[20px] md:pl-0 sm:pl-5 sm:block mb:hidden">
+            <div className="xl:mt-[32px] ml-[41px] xl:mb-[50px] lg:mt-[32px] lg:mb-[50px] sm:mt-[20px] md:mb-[20px] md:pl-0 sm:pl-5 md:block mb:hidden">
               <Showing />
             </div>
+
             {/* Top trending women */}
             <div className="xxl:pr-[40px] xl:pr-[30px] md:pr-[20px] mb:mt-8">
               <p className=" xl:text-2xl  xl:mb-[50px] lg:text-[20px] lg:pl-0 lg:mb-[40px] md:text-[18px] leading-6 tracking-tighter  mb:mb-[24px] md:max-w-fit mb:pl-[20px] mb:text-[16px] font-semibold ">
